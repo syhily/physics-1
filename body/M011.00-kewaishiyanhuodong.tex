@@ -1,0 +1,222 @@
+\chapter{课外实验活动}
+\setcounter{section}{16}
+\section{测量尼龙丝的抗断拉力}
+在商店里买来了尼龙丝，但不知道它的抗断拉力．如果你手边只有一个质量为1千克的重物和一只量角器，你能测出尼龙丝的抗断拉力吗？
+
+如图10.22所示，把1千克的重物挂在一段尼龙丝的中点．根据力的平行四边形法则，你可以找出$F$和$G$的关系式．
+
+用手拉着尼龙丝的另一端，并沿着箭头$a$所示的方向拉尼龙丝，当逐渐拉紧尼龙丝时，$\alpha$角增大，力$F$也随着增大．用量角器量自尼龙丝刚刚被扯断时的$\alpha$角，就可以知道尼龙丝的抗断拉力．
+
+\begin{figure}[htp]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \fill [pattern =north east lines](-2, 1) rectangle (-2-.25, 1-.5);
+        \draw [thick](-2,1)--(-2,.5);
+        \draw (0,0)--(-2,.75);
+        \draw (0,0)--(2,1);
+        \draw [thick,->](0,0)--(-1,.75/2)node [below]{$F$};
+        \draw [thick,->](0,0)--(1,1/2)node [below]{$F$};
+        \draw [thick,->] (1.75,1.4)--node [above]{$a$} (2.5,1.4);
+        \draw (0,0)--(0,-1);
+        \draw (-0.25,-1) rectangle(.25, -1.8);
+        \draw [thick,->](0,-2.8/2)--(0,-2.5) node [right]{$G=mg$};
+        \draw (1/2,1/4) arc  (30:160:.56);
+        \node at (0,.25){$\alpha$};
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+\newpage
+\section{滴水法测重力加速度}
+
+利用水滴下落可以测出重力加速度，调节水龙头，让水一滴一滴地流出，在水龙头正下方放一个盘子，使水滴落到盘子上，要把盘子垫起来，以便能清晰地听到水滴碰到盘子的响声．
+
+细心地调整阀门，使第一个水滴碰到盘子的瞬间，第二个水滴正好从阀门处开始下落．你一边听水滴碰盘子的响声，一边注视着阀门处的水滴，就很容易做到这一点．这样调整好之后，水滴从阀门落到盘子经过的时间，就正好等于相继滴下的两个水滴之间的时间间隔．
+
+数出在半分钟或一分钟内滴下的水滴的数目，或者测出下落50—100个水滴经过的时间，就可以算出水滴下落的时间$t$．用米尺量出水滴下落的距离$h$．将$t$、$h$值代入公式$h=\dfrac{1}{2}gt^2$中，就可以计算出重力加速度$g$．
+
+\section{用秒表测量玩具手枪子弹射出的速度}
+根据你学过的竖直上抛运动的知识，用一只秒表就可以简便地测出玩具手枪子弹射出的速度．
+
+让子弹从枪口竖直向上射出，用秒表测出子弹从射出枪口到落回原地经过的时间$t$．设子弹射出的速度为$v_0$，子弹从射出到落回原地所用的时间
+\[t=\frac{2v_0}{g}\]
+由此可以求出子弹射出的速度
+\[v_0=\frac{gt}{2}\]
+
+用这种方法测出玩具手枪子弹射出的速度．
+
+\section{用尺测量玩具手枪子弹射出的速度}
+根据你学过的平抛运动的知识，用尺可以简便地测出玩具手枪子弹射出的速度．
+
+让子弹从高度为$h$的地方水平射出，用卷尺量出子弹落地处到射自处的水平距离$l$和高度$h$．如果子弹的射出速度$v_0$，那么，
+\[\begin{split}
+        h & =\frac{1}{2}gt^2 \\
+        l & =v_0t
+    \end{split}\]
+由此可以求出子弹射出的速度
+\[v_0=l \sqrt{\frac{g}{2h}}\]
+
+用这种方法测出玩具手枪子弹射出的速度．
+
+\section{估测自行车受到的阻力}
+
+骑自行车时，如果停止用力蹬脚踏板，由于受到阻力，自行车在水平路面上前进一段路程就停下来．设计一个实验，测量自行车在这段路程里所受的平均阻力．在这个实验里，你要测量些什么？实际测量一下，你自己或你的同学骑自行车停下来时，在这段路程里受到的平均阻力是多少？
+\newpage
+\section{验证向心力公式}
+用下面的方法可以验证向心力公式．如图10.23那样，把尼龙绳穿过圆珠笔杆，在绳的两端分别拴上大小不同的两个石块．手握笔杆，抡动小石块，使它做匀速圆周运动，并且使大石块的位置保持基本上不动．这时使小石块做匀速圆周运动的向心力就等于大石块的重量（想一想，为什么）．把小石块转动的半径$r$改变三次，测出每次的$r$和每次小石块转动20圈所用的时间$t$．算出小石块各次转动的角速度$\omega$，再测出大石块的质量$M$和小石块的质量$m$．利用以上测得的数据算出每次小石块做匀速圆周运动所需的向心力$mr\omega^2$，看看是否都等于大石块的重量$Mg$．
+\begin{figure}[htp]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \newcommand\dynanometer[3][0]{
+            \begin{scope}[#2,rotate=#1,inner sep=0pt]
+                \coordinate (A) at (0,2.0);
+                \coordinate (B) at (0,2.0+#3*0.2);
+                \foreach \x/\y in {100/2.0, 70/1.5, 50/1.2, 30/0.7 }
+                    {
+                        \draw[line width=\y pt,gray!\x ]([yshift=1cm]B)circle(0.2);
+                    }
+                \fill[top color=gray, bottom color=gray,middle color=white]([xshift=-1mm,yshift=7mm]B)rectangle([xshift=1mm,yshift=8.7mm]B);
+                \fill[green!30!black]([xshift=2.8mm,yshift=6mm]B)--([xshift=2.8mm,yshift=-1.2cm]B)to[bend left=50]([xshift=-2.8mm,yshift=-1.2cm]B)--([xshift=-2.8mm,yshift=6mm]B)to[bend left=50]cycle;
+                \fill[lightgray,even odd rule](0.1,0.4)arc(360:180:0.1)--++(0,1.6)--++(0.2,0)--cycle(0,0.4)circle(0.05)([xshift=-0.4mm]A)rectangle++(0.8mm,0.5mm);
+                \fill[lightgray!30,even odd rule]([xshift=2.2mm,yshift=5mm]B)--([xshift=2.2mm,yshift=-1.1cm]B)to[bend left]([xshift=-2.2mm,yshift=-1.1cm]B)[rounded corners=2pt]--([xshift=-2.2mm,yshift=5mm]B)[sharp corners]--([xshift=-1mm,yshift=5mm]B)arc(180:0:0.1)[rounded corners=2pt]--cycle[sharp corners]
+                ([xshift=-0.4mm,yshift=2mm]B)rectangle([xshift=0.4mm]A);
+                \draw[darkgray](0.1,0.1)arc(360:90:0.1)--++(0,0.15);
+                \foreach \x in {0,1,...,9}
+                    {
+                        \draw[line width=0.1pt,line join=round,lightgray]([yshift=2mm-\x*0.15mm-\x*#3*0.2mm]B)--++(0.3mm,-0.0375mm-#3*0.05mm)--++(-0.6mm,-0.075mm-#3*0.1mm)--++(0.3mm,-0.0375mm-#3*0.05mm);
+                    }
+                \fill[red]([yshift=-0.2mm]A)--([xshift=-1mm]A)--([xshift=1mm]A);
+                \foreach \x in {0,1,2,3,4}
+                    {
+                        \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm]B)--++(0.07,0)node[rotate=#1,right]{\resizebox{!}{0.5mm}{\x}};
+                        \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm]B)--++(-0.07,0)node[rotate=#1,left]{\resizebox{!}{0.5mm}{\x}};
+                        \foreach \y in {1,2,3,4,6,7,8,9}
+                            {
+                                \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm-\y*0.2mm]B)--++(0.05,0);
+                                \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm-\y*0.2mm]B)--++(-0.05,0);
+                            }
+                        \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm-1mm]B)--++(0.06,0);
+                        \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm-1mm]B)--++(-0.06,0);
+                    }
+                \draw[ultra thin]([xshift=0.5mm,yshift=-1cm]B)--++(0.07,0)node[rotate=#1,right]{\resizebox{!}{0.5mm}{5}};
+                \draw[ultra thin]([xshift=-0.5mm,yshift=-1cm]B)--++(-0.07,0)node[rotate=#1,left]{\resizebox{!}{0.5mm}{5}};
+            \end{scope}
+        }
+        % \useasboundingbox(-1.9,-3.55)rectangle(3,3.15);
+        % \dynanometer{scale=0.7}{1}
+        \draw(0,1)--(0,3);
+        \fill[ball color=green!50!black](0,1)circle(0.2);
+        % \draw[thick](-0.5,-0.5)--(0.5,-0.5);
+        % \fill[pattern=north east lines]  (-0.5,-0.5)rectangle(0.5,-0.75);
+
+        \fill[pink!10!orange!10,draw=black,very thin]
+        ( 0.802,3.496)..controls( 0.660,3.493)and( 0.580,3.513)..
+        ( 0.548,3.583)..controls( 0.520,3.628)and( 0.448,3.741)..
+        ( 0.401,3.773)..controls( 0.286,3.821)and( 0.213,3.837)..
+        ( 0.134,3.819)..controls( 0.068,3.797)and( 0.014,3.822)..
+        (-0.074,3.810)..controls(-0.187,3.797)and(-0.213,3.787)..
+        (-0.219,3.711)..controls(-0.222,3.666)and(-0.203,3.641)..
+        (-0.163,3.613)..controls(-0.156,3.487)and(-0.081,3.361)..
+        (-0.012,3.232)..controls( 0.067,3.206)and( 0.130,3.182)..
+        ( 0.183,3.151)..controls( 0.291,3.085)and( 0.340,3.101)..
+        ( 0.421,3.161)..controls( 0.411,3.136)and( 0.424,3.121)..
+        ( 0.466,3.113)..controls( 0.526,3.110)and( 0.576,3.088)..( 0.621,3.092);
+        \fill[left color=blue!60!black,right color=blue!60!black,middle color=white](-0.03,3)rectangle(0.03,4.1);
+        \fill[left color=blue!60!black,right color=blue!60!black,middle color=white](0.01,4.2)--(0.03,4.1)--(-0.03,4.1)--(-0.01,4.2);
+        \fill[pink!10!orange!10,draw=black,very thin]
+        ( 0.177,3.737)..controls( 0.126,3.826)and( 0.066,3.845)..
+        (-0.033,3.916)..controls(-0.130,3.970)and(-0.107,4.095)..
+        (-0.034,4.051)..controls( 0.025,4.009)and( 0.045,4.029)..
+        ( 0.083,4.011)..controls( 0.102,4.000)and( 0.128,3.958)..
+        ( 0.154,3.942)..controls( 0.246,3.898)and( 0.318,3.826)..( 0.401,3.773)
+        (-0.085,3.756)..controls(-0.049,3.743)and( 0.011,3.694)..
+        ( 0.035,3.703)..controls( 0.059,3.703)and( 0.071,3.702)..
+        ( 0.111,3.671)..controls( 0.154,3.630)and( 0.160,3.566)..
+        ( 0.117,3.560)..controls( 0.077,3.571)and( 0.040,3.574)..
+        (-0.007,3.572)..controls(-0.075,3.575)and(-0.107,3.561)..(-0.163,3.613)
+        (-0.163,3.613)..controls(-0.182,3.589)and(-0.214,3.532)..
+        (-0.194,3.498)..controls(-0.185,3.478)and(-0.183,3.461)..
+        (-0.177,3.447)..controls(-0.193,3.385)and(-0.174,3.333)..
+        (-0.129,3.321)..controls(-0.140,3.300)and(-0.142,3.274)..
+        (-0.121,3.251)..controls(-0.105,3.231)and(-0.089,3.204)..
+        (-0.040,3.204)..controls(-0.007,3.205)and(-0.008,3.220)..
+        ( 0.025,3.227)..controls( 0.090,3.244)and( 0.107,3.276)..
+        ( 0.144,3.291)..controls( 0.174,3.306)and( 0.178,3.311)..
+        ( 0.176,3.342)..controls( 0.174,3.366)and( 0.163,3.381)..
+        ( 0.140,3.383)..controls( 0.177,3.393)and( 0.190,3.421)..
+        ( 0.184,3.460)..controls( 0.180,3.470)and( 0.178,3.472)..
+        ( 0.152,3.468)..controls( 0.175,3.476)and( 0.185,3.490)..
+        ( 0.184,3.508)..controls( 0.182,3.528)and( 0.169,3.549)..
+        ( 0.117,3.560)..controls( 0.077,3.571)and( 0.040,3.574)..
+        (-0.007,3.572)..controls(-0.075,3.575)and(-0.107,3.561)..(-0.163,3.613);
+        \draw[very thin]
+        ( 0.072,3.581)..controls( 0.060,3.646)and( 0.079,3.660)..( 0.122,3.641)
+        ( 0.129,3.534)..controls( 0.078,3.534)and( 0.094,3.491)..( 0.139,3.470)
+        ( 0.100,3.365)..controls( 0.088,3.332)and( 0.094,3.311)..( 0.117,3.296)
+        (-0.177,3.447)..controls(-0.054,3.438)and( 0.053,3.448)..( 0.151,3.468)
+        (-0.129,3.321)..controls(-0.112,3.315)and(-0.037,3.331)..
+        ( 0.027,3.349)..controls( 0.085,3.369)and( 0.115,3.370)..( 0.140,3.383)
+        ( 0.127,3.454)..controls( 0.109,3.425)and( 0.117,3.406)..( 0.149,3.395)
+        ( 0.189,3.677)..controls( 0.195,3.606)and( 0.211,3.550)..( 0.232,3.522)
+        ( 0.262,3.475)..controls( 0.294,3.394)and( 0.399,3.410)..( 0.426,3.358)
+        ( 0.491,3.264)..controls( 0.488,3.240)and( 0.465,3.235)..( 0.446,3.216)
+        ( 0.589,3.245)..controls( 0.620,3.234)and( 0.654,3.229)..( 0.676,3.231)
+        ( 0.599,3.276)..controls( 0.655,3.258)and( 0.685,3.255)..( 0.713,3.257)
+        ( 0.538,3.358)..controls( 0.542,3.371)and( 0.555,3.382)..( 0.568,3.384)
+        (-0.061,4.052)..controls(-0.091,4.028)and(-0.029,4.015)..(-0.023,3.988)
+        ( 0.016,4.015)..controls( 0.005,4.004)and( 0.007,3.989)..( 0.008,3.979)
+        ( 0.045,3.980)..controls( 0.057,3.987)and( 0.061,3.997)..( 0.061,4.011)
+        ( 0.069,3.970)..controls( 0.081,3.979)and( 0.084,3.990)..( 0.084,4.001);
+        \draw[densely dashed](0,4.2)ellipse(2 and 0.5);
+        \draw(0,4.2)--(2,4.2);
+        \fill[ball color=red](2,4.2)circle(0.1);
+
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+要注意，一定要把石块拴牢靠，以免实验时石块飞出，发生意外．
+
+\section{制作杆秤}
+学习了物体平衡的知识，你可以自己制作一把杆秤．
+
+取一根30—50厘米长的细木棍作秤杆，一个质量1千克左右的物体作秤锤．照图6.26那样先确定秤钩和提纽的位置．然后在秤钩不挂物体的情况下，把秤锤挂在秤杆上，提起提纽，使秤杆平街，这时秤锤的位置就是秤的零刻度$A$点（这点也叫定盘星）．再把质量为1千克的物体挂在秤钩上，调整秤锤的位置，使秤杆平衡，这时秤锤的位置就是秤的1千克刻度点．再在秤钩上挂质量为2千克、3千克的物体，使秤杆平衡，找出2千克、3千克刻度的位置．你将发现这几个刻度间的距离是均匀的（为什么，请同学们自己证明）．根据这个规律，你可以在秤杆上找出4千克、5千克等刻度的位置，把每千克刻度间的距离等分成10份，每份问的距离就代表0.1千克，这样你的杆秤就做成了．
+
+把你制作的杆秤跟商店里层的秤核对一下，看看你的杆秤用起来准不准？
+
+如果要增大杆秤的称量范围，想一想应该怎么办？
+\newpage
+\section{研究小球滚下的位置}
+如图10.24所示，让小球从斜面上某一位置滚下，如果小球在运动中受到的摩擦阻力很小，可以忽略不计，你能否预计出小球落在地面上的位置？在你预计的位置上放一个塑料杯子，看看小球滚下时是否落入杯中，这个实验说明了什么问题？
+\begin{figure}[htp]\centering
+    \begin{tikzpicture}[>=stealth,scale=1]
+        \fill [pattern=north east lines](-4.5,-.25) rectangle (3,0);
+        \draw [thick](-4.5,0)--(3,0);
+        \draw [thick,fill=lightgray](-1.5,2) --(1.7,2.92)--(1.7,2);
+        \draw [semithick,fill=brown!70](-2.2,1.8)rectangle(2.2,2);
+        \draw [semithick,fill=brown](-1.9,1.8)rectangle(1.9,1.6);
+        \draw [semithick,fill=brown](-2.0,1.8)--(-1.95,0)--(-1.85,0)--(-1.8,1.8)--cycle;
+        \draw [semithick,fill=brown](2.0,1.8)--(1.95,0)--(1.85,0)--(1.8,1.8)--cycle;
+        \fill [ball color=gray,semithick](1.5,3.0) circle (.15);
+        \fill [left color=gray,right color=gray,middle color=white](-4.2,0.4)--(-3.8,0.4)--(-3.9,0)--(-4.1,0)--cycle;
+        \fill [darkgray] (-4,0.4) ellipse(0.2 and 0.05);
+        \fill [lightgray] (-4.2,0.4) arc( 180:-50:0.2 and 0.05)to[bend right=20]cycle;
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

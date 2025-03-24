@@ -1,0 +1,101 @@
+\special{dvipdfmx:config z 0} %取消PDF压缩，加快速度，最终版本生成的时候最好把这句话注释掉
+\documentclass{gaozhongwulidiyice}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{patterns, calc}
+\usetikzlibrary {decorations.pathmorphing, decorations.pathreplacing, decorations.shapes,decorations.markings,positioning,3d}
+\usepackage{tkz-euclide,fontawesome5}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{enumerate}
+\usepackage{wrapfig}
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{booktabs}
+\newcolumntype{M}{>{\centering\arraybackslash}X}
+\newcolumntype{Z}{>{\raggedright\arraybackslash}X}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+\setcounter{secnumdepth}{3}
+\begin{document}
+
+% 封面
+\includepdf{body/F00-Frontpage.pdf}
+\bookmark[page=1,level=0]{封面}
+
+% 内容提要
+\include{body/F03-Abstract}
+
+% 序言
+\include{body/F04-Foreword}
+
+% 目录
+\clearpage
+\pagestyle{plain}
+\setcounter{page}{1}
+\pdfbookmark{目录}{Contents}
+\tableofcontents
+
+% 正文
+\clearpage
+\pagestyle{heading}
+\setcounter{page}{1}
+\setcounter{chapter}{0}
+% 公式与上下文本距离调整
+\baselineskip=1.5em
+\lineskip=0.25em
+\lineskiplimit=0.25em
+\abovedisplayskip=0.25em plus 0.25em minus 0.25em
+\belowdisplayskip=\abovedisplayskip
+\abovedisplayshortskip=0em plus 0.25em minus 0.25em
+\belowdisplayshortskip=\abovedisplayshortskip
+\belowcaptionskip=-0.8em
+%\def\int{\mathop{\vcenter{\hbox{\scaleto[1.3ex]{\symbol{"222B}}{2em}}}}\nolimits}
+%\def\sum{\mathop{\vcenter{\hbox{\scaleto{\symbol{"2211}}{1.2em}}}}}
+
+%% 第一章
+\include{body/M01.00-li.tex}
+
+% 第二章
+\include{body/M02.00-zhixianyundong}
+
+% 第三章
+\include{body/M03.00-yundongdinglv}
+
+% 第四章
+\include{body/M04.00-quxianyundong}
+
+% 第五章
+\include{body/M05.00-wanyouyinli}
+
+% 第六章
+\include{body/M06.00-wutidepingheng}
+
+% 第七章
+\include{body/M07.00-jixieneng}
+
+% 第八章
+\include{body/M08.00-dongliang}
+
+% 第九章
+\include{body/M09.00-jixiezhendonghejixiebo}
+
+% 第十章
+\include{body/M010.00-xueshengshiyan}
+
+\backmatter
+\include{body/M011.00-kewaishiyanhuodong}
+
+\begin{appendix}
+    \include{body/fulu}
+\end{appendix}
+
+% 封底
+\includepdf{body/Z00-Back cover.pdf}
+\bookmark[page=1,level=0]{封底}
+
+
+
+
+\end{document}

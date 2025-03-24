@@ -1,0 +1,214 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}力}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}力}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}重力}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}弹力}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}胡克定律}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}摩擦力}{10}{section.1.5}%
+\contentsline {section}{\numberline {1.6}牛顿第三定律}{13}{section.1.6}%
+\contentsline {section}{\numberline {1.7}物体受力情况}{15}{section.1.7}%
+\contentsline {section}{\numberline {1.8}力的合成}{18}{section.1.8}%
+\contentsline {section}{\numberline {1.9}力的合成的计算}{20}{section.1.9}%
+\contentsline {section}{\numberline {1.10}力的分解}{22}{section.1.10}%
+\contentsline {section}{\numberline {1.11}矢量和标量}{25}{section.1.11}%
+\contentsline {section}{\numberline {1.12}同一直线上矢量的计算}{26}{section.1.12}%
+\contentsline {section}{习题}{29}{section.1.13}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}直线运动}{31}{chapter.2}%
+\contentsline {section}{\numberline {2.1}机械运动}{31}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}参照物}{31}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}平动和转动}{31}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}质点}{33}{section.2.2}%
+\contentsline {section}{\numberline {2.3}位置与位移}{34}{section.2.3}%
+\contentsline {section}{\numberline {2.4}匀速直线运动~~速度}{36}{section.2.4}%
+\contentsline {section}{\numberline {2.5}匀速直线运动的图像}{37}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}匀速直线运动的位置图像}{37}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}匀速直线运动的速度图像}{38}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}变速直线运动~~平均速度~~瞬时速度}{40}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}变速直线运动}{40}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}平均速度}{40}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}瞬时速度}{40}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}匀变速直线运动~~加速度}{42}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}匀变速直线运动}{42}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}加速度}{42}{subsection.2.7.2}%
+\contentsline {section}{\numberline {2.8}匀变速直线运动的速度}{45}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}匀变速运动的速度}{45}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}匀变速运动的速度图像}{46}{subsection.2.8.2}%
+\contentsline {section}{\numberline {2.9}匀变速直线运动的位移}{48}{section.2.9}%
+\contentsline {section}{\numberline {2.10}匀变速运动规律的应用}{50}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}两个基本公式}{50}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}两个有用的推论}{51}{subsection.2.10.2}%
+\contentsline {section}{\numberline {2.11}自由落体运动}{54}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}自由落体运动}{54}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.2}自由落体加速度}{55}{subsection.2.11.2}%
+\contentsline {section}{\numberline {2.12}竖直上抛运动}{57}{section.2.12}%
+\contentsline {section}{习题}{61}{section.2.13}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}运动定律}{62}{chapter.3}%
+\contentsline {section}{\numberline {3.1}牛顿第一定律}{62}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}历史的回顾}{62}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}牛顿第一定律}{63}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}物体运动状态的改变}{65}{section.3.2}%
+\contentsline {section}{\numberline {3.3}加速度和力的关系}{66}{section.3.3}%
+\contentsline {section}{\numberline {3.4}加速度和质量的关系}{68}{section.3.4}%
+\contentsline {section}{\numberline {3.5}牛顿第二定律}{70}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}牛顿第二定律及其公式}{70}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}力的独立作用原理}{70}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}质量和重量}{72}{section.3.6}%
+\contentsline {section}{\numberline {3.7}力学单位制}{74}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}单位制}{74}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}单位制在物理计算中的作用}{74}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}牛顿运动定律的应用(一)}{76}{section.3.8}%
+\contentsline {section}{\numberline {3.9}牛顿运动定律的应用(二)}{78}{section.3.9}%
+\contentsline {section}{\numberline {3.10}超重和失重}{80}{section.3.10}%
+\contentsline {section}{\numberline {3.11}牛顿运动定律的适用范围}{83}{section.3.11}%
+\contentsline {section}{习题}{85}{section.3.12}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}曲线运动}{87}{chapter.4}%
+\contentsline {section}{\numberline {4.1}曲线运动}{87}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}曲线运动的速度方向}{87}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}物体做曲线运动的条件}{88}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}运动的合成和分解}{89}{section.4.2}%
+\contentsline {section}{\numberline {4.3}平抛物体的运动}{91}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}平抛物体的运动}{91}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}平抛运动的公式}{91}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}斜抛物体的运动}{93}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}斜抛物体的运动}{93}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}射高和射程}{93}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}匀速圆周运动}{96}{section.4.5}%
+\contentsline {section}{\numberline {4.6}向心加速度}{98}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}匀速圆周运动的加速度的方向}{98}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}向心加速度的大小}{98}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}向心力}{100}{section.4.7}%
+\contentsline {section}{\numberline {4.8}匀速圆周运动的实例分析}{103}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}圆锥摆}{103}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}火车转弯}{103}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}离心现象}{106}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}离心运动}{106}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}离心机械}{106}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}一些有害的离心运动}{107}{subsection.4.9.3}%
+\contentsline {section}{习题}{109}{section.4.10}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}万有引力定律}{111}{chapter.5}%
+\contentsline {section}{\numberline {5.1}行星的运动}{111}{section.5.1}%
+\contentsline {section}{\numberline {5.2}万有引力定律}{114}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}万有引力定律}{114}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}万有引力恒量的测定}{116}{section.5.3}%
+\contentsline {section}{\numberline {5.4}万有引力定律在天文学上的应用}{118}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}天体质量的计算}{118}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}海王星的发现}{118}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}地球上物体重量的变化}{119}{section.5.5}%
+\contentsline {section}{\numberline {5.6}人造地球卫星}{120}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}宇宙速度}{120}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}人造地球卫星中的超重和失重}{121}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}人造卫星的应用}{122}{subsection.5.6.3}%
+\contentsline {section}{习题}{124}{section.5.7}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}物体的平衡}{125}{chapter.6}%
+\contentsline {section}{\numberline {6.1}在共点力作用下物体的平衡}{125}{section.6.1}%
+\contentsline {section}{\numberline {6.2}力对物体的转动作用}{127}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}转动}{127}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}力矩}{127}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}有固定转动轴的物体的平衡}{129}{section.6.3}%
+\contentsline {section}{\numberline {6.4}力偶}{131}{section.6.4}%
+\contentsline {section}{\numberline {6.5}平衡的种类}{133}{section.6.5}%
+\contentsline {section}{\numberline {6.6}稳度}{135}{section.6.6}%
+\contentsline {section}{习题}{138}{section.6.7}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}机械能}{142}{chapter.7}%
+\contentsline {section}{\numberline {7.1}功}{142}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}功的公式}{142}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}正功和负功}{143}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}功率}{145}{section.7.2}%
+\contentsline {section}{\numberline {7.3}能量}{147}{section.7.3}%
+\contentsline {section}{\numberline {7.4}动能}{148}{section.7.4}%
+\contentsline {section}{\numberline {7.5}动能定理}{150}{section.7.5}%
+\contentsline {section}{\numberline {7.6}重力势能}{152}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}重力势能}{152}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}重力做功与重力势能的变化}{152}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}重力势能的相对性}{152}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}重力做功的特点和重力势能}{154}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}重力做功的特点}{154}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}重力势能的进一步讨论}{155}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}势能属于系统}{155}{subsection.7.7.3}%
+\contentsline {section}{\numberline {7.8}弹性势能}{157}{section.7.8}%
+\contentsline {section}{\numberline {7.9}机械能守恒定律}{158}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}机械能的相互转化}{158}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}机械能的守恒}{158}{subsection.7.9.2}%
+\contentsline {section}{\numberline {7.10}机械能守恒定律的应用}{160}{section.7.10}%
+\contentsline {section}{\numberline {7.11}功和能}{162}{section.7.11}%
+\contentsline {section}{习题}{164}{section.7.12}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}动量}{166}{chapter.8}%
+\contentsline {section}{\numberline {8.1}冲量和动量}{166}{section.8.1}%
+\contentsline {section}{\numberline {8.2}动量定理}{168}{section.8.2}%
+\contentsline {section}{\numberline {8.3}相互作用的物体的动量变化}{170}{section.8.3}%
+\contentsline {section}{\numberline {8.4}动量守恒定律}{171}{section.8.4}%
+\contentsline {section}{\numberline {8.5}动量守恒定律和牛顿运动定律}{173}{section.8.5}%
+\contentsline {section}{\numberline {8.6}弹性碰撞}{174}{section.8.6}%
+\contentsline {section}{\numberline {8.7}反冲运动}{176}{section.8.7}%
+\contentsline {section}{习题}{179}{section.8.8}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}机械振动和机械波}{181}{chapter.9}%
+\contentsline {section}{\numberline {9.1}机械振动}{181}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}机械振动}{181}{subsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.1.1}产生振动的条件}{181}{subsubsection.9.1.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.1.2}表征振动的物理量}{181}{subsubsection.9.1.1.2}%
+\contentsline {subsection}{\numberline {9.1.2}简谐振动}{182}{subsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.2.1}弹簧振子}{183}{subsubsection.9.1.2.1}%
+\contentsline {subsubsection}{\numberline {9.1.2.2}简谐振动的周期}{184}{subsubsection.9.1.2.2}%
+\contentsline {subsection}{\numberline {9.1.3}单摆}{185}{subsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.3.1}单摆的振动特点}{185}{subsubsection.9.1.3.1}%
+\contentsline {subsubsection}{\numberline {9.1.3.2}单摆的周期公式}{186}{subsubsection.9.1.3.2}%
+\contentsline {subsection}{\numberline {9.1.4}相和相差}{186}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.5}简谐振动的图象}{188}{subsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.1.6}简谐振动的能量}{189}{subsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.1.7}受迫振动~~共振}{190}{subsection.9.1.7}%
+\contentsline {subsubsection}{\numberline {9.1.7.1}受迫振动}{190}{subsubsection.9.1.7.1}%
+\contentsline {subsubsection}{\numberline {9.1.7.2}共振}{191}{subsubsection.9.1.7.2}%
+\contentsline {section}{\numberline {9.2}机械波}{193}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}机械振动在媒质中的传播——机械波}{193}{subsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.1.1}机械波}{193}{subsubsection.9.2.1.1}%
+\contentsline {subsubsection}{\numberline {9.2.1.2}横波和纵波}{194}{subsubsection.9.2.1.2}%
+\contentsline {subsubsection}{\numberline {9.2.1.3}波长、频率和波速之间的关系}{195}{subsubsection.9.2.1.3}%
+\contentsline {subsubsection}{\numberline {9.2.1.4}波的图象}{195}{subsubsection.9.2.1.4}%
+\contentsline {subsection}{\numberline {9.2.2}波的干涉}{198}{subsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.1}波的叠加}{198}{subsubsection.9.2.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2.2}波的干涉}{198}{subsubsection.9.2.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}波的衍射}{200}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}声学的初步知识}{201}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}声波}{201}{subsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.1.1}声源}{201}{subsubsection.9.3.1.1}%
+\contentsline {subsubsection}{\numberline {9.3.1.2}声波}{201}{subsubsection.9.3.1.2}%
+\contentsline {subsection}{\numberline {9.3.2}某些声音现象}{202}{subsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.2.1}声波的反射}{202}{subsubsection.9.3.2.1}%
+\contentsline {subsubsection}{\numberline {9.3.2.2}声波的干涉}{203}{subsubsection.9.3.2.2}%
+\contentsline {subsubsection}{\numberline {9.3.2.3}声波的衍射}{203}{subsubsection.9.3.2.3}%
+\contentsline {subsubsection}{\numberline {9.3.2.4}声音的共鸣}{203}{subsubsection.9.3.2.4}%
+\contentsline {subsection}{\numberline {9.3.3}音调、响度、音品}{204}{subsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.3.1}乐音和噪声}{204}{subsubsection.9.3.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.3.2}音调}{205}{subsubsection.9.3.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3.3}响度}{205}{subsubsection.9.3.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.3.4}音品}{206}{subsubsection.9.3.3.4}%
+\contentsline {subsection}{\numberline {9.3.4}噪声的危害和控制}{207}{subsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.3.5}超声波}{207}{subsection.9.3.5}%
+\contentsline {section}{习题}{210}{section.9.4}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}学生实验}{211}{chapter.10}%
+\contentsline {section}{\numberline {10.1}练习分析实验数据}{212}{section.10.1}%
+\contentsline {section}{\numberline {10.2}游标卡尺的使用}{213}{section.10.2}%
+\contentsline {section}{\numberline {10.3}螺旋测微器的使用}{215}{section.10.3}%
+\contentsline {section}{\numberline {10.4}测量滑动摩擦系数}{217}{section.10.4}%
+\contentsline {section}{\numberline {10.5}互成角度的两个力的合成}{218}{section.10.5}%
+\contentsline {section}{\numberline {10.6}练习使用打点计时器}{219}{section.10.6}%
+\contentsline {section}{\numberline {10.7}研究匀变速直线运动}{220}{section.10.7}%
+\contentsline {section}{\numberline {10.8}研究加速度和力的关系}{221}{section.10.8}%
+\contentsline {section}{\numberline {10.9}研究加速度和质量的关系}{221}{section.10.9}%
+\contentsline {section}{\numberline {10.10}研究平抛物体的运动}{222}{section.10.10}%
+\contentsline {section}{\numberline {10.11}验证向心力公式}{223}{section.10.11}%
+\contentsline {section}{\numberline {10.12}研究有固定转动轴物体的平衡条件}{224}{section.10.12}%
+\contentsline {section}{\numberline {10.13}验证机械能守恒定律}{225}{section.10.13}%
+\contentsline {section}{\numberline {10.14}研究弹性碰撞}{227}{section.10.14}%
+\contentsline {section}{\numberline {10.15}用冲击摆测弹丸的速度}{229}{section.10.15}%
+\contentsline {section}{\numberline {10.16}用单摆测定重力加速度}{231}{section.10.16}%
+\contentsline {chapter}{课外实验活动}{232}{chapter*.304}%
+\contentsline {section}{\numberline {10.17}测量尼龙丝的抗断拉力}{232}{section.10.17}%
+\contentsline {section}{\numberline {10.18}滴水法测重力加速度}{233}{section.10.18}%
+\contentsline {section}{\numberline {10.19}用秒表测量玩具手枪子弹射出的速度}{233}{section.10.19}%
+\contentsline {section}{\numberline {10.20}用尺测量玩具手枪子弹射出的速度}{233}{section.10.20}%
+\contentsline {section}{\numberline {10.21}估测自行车受到的阻力}{233}{section.10.21}%
+\contentsline {section}{\numberline {10.22}验证向心力公式}{234}{section.10.22}%
+\contentsline {section}{\numberline {10.23}制作杆秤}{234}{section.10.23}%
+\contentsline {section}{\numberline {10.24}研究小球滚下的位置}{235}{section.10.24}%
+\contentsline {chapter}{附录一~~国际单位制（SI）}{236}{appendix*.308}%
+\contentsline {chapter}{附录二~~量纲}{238}{appendix*.311}%

@@ -1,0 +1,1247 @@
+\chapter{学生实验}
+
+物理学是一门以实验为基础的科学．在中学物理课程中，
+学生实验也是学好这门课程的基础，同学们对它的重要性要有足够的认识．关于实验的重要性和如何做好实验，在本书的《引言》中已经讲过了，希望学们认真阅读这部分课文，在做实验的时候切实按照课文中的要求去做．这样，你们将越来越深地从实践中体会到自己动手做实验的重要，不断地学到许多用其他方式学不到的知识和技能．
+
+\section*{误差和有效数字}
+
+做物理实验，不仅要观察物理现象，还要找到现象中的数量关系，这就需要知道有关物理量的数值．
+
+要知道物理量的数值，必须进行测量．测量的结果不可能是绝对精确的．例如，用刻度尺来量长度，用天平来称质量，用温度计来测温度，用电流表或电压表来测电流或电压，测量出来的数值跟被测物理量的真实值都不能完全一致，测出的数值与真实值的差异叫做\textbf{误差}，从来源看，误差可以分成\textbf{系统误差}和\textbf{偶然误差}两种．
+
+系统误差是由于仪器本身不精确、或实验方法粗略、或实验原理不完善而产生的．例如，天平的两臂不严格相等或砝
+码不准，称质量时没有考虑空气浮力的影响，做热学实验时没有考虑散热损失等，都会产生系统误差．系统误差的特点是在多次重做同一实验时，误差总是同样地偏大或偏小，不会出现这几次偏大另几次偏小的情况．要减小系统误差，必须校准测量仪器，改进实验方法，设计在原理上更为完善的实验．
+
+偶然误差是由各种偶然因素对实验者、测量仪器、被测物理量的影响而产生的．例如，用有毫来刻度的尺量物体的长度，毫米以下的数值只能用眼睛来估计，各次测量的结果就不一致，有时偏大，有时偏小．偶然误差总是有时偏大，有时偏
+小，并且偏大和偏小的机会相同．因此，我们可以多进行几次测量，各次测得数值的平均值就比一次测得的数值更接近于真实值．
+
+测量既然总有误差，测得的数值就只能是近似数．例如：
+用毫米刻度的尺量出书本的长度是184.2毫米，最末一位数字2是估计出来的，是不可靠数字，但是仍然有意义，仍要写出来，这种带有一位不可靠数字的近似数字，叫做\textbf{有效数字}．
+
+在有效数字中，数2.7、2.70、2.700的含义是不同的，它们分别代表二位、三位、四位有效数字，数2.7表示最末一位数字7是不可靠的，而数2.70和2.700则表示最末一位数字0是不可靠的．因此，小数最后的零是有意义的，不能随便舍去或添加．但是，小数的第一个非零数字前面的零是用来表示小数点位置的，不是有效数字．例如，0.92、3.085, 0.0063都是两位有效数字，大的数目，例如，36500千米，如果这五个数字不全是有效数字，就不要这样写，可以写成有一位整数的小数和10的乘方的积的形式，如果是三位有效数字，就写成
+$3.65\times 10^4$千米．
+
+在学生实验中，测量时要按照有效数字的规则来读数．在处理实验数据进行加减乘除运算时，本来也应该按照有效数字的规则来运算，但由于这些规则比较复杂，中学阶段将不作要求，运算结果一般取两位或三位数字就可以了．
+
+\section{练习分析实验数据}
+做实验中分析和处理实验数据，是一项很重要的实验技能．这里，我们就一个具体的实验，来练习一下怎样分析实验数据．这种分析方法，在物理实验中是常常用到的．
+
+这个实验是要研究水从容器底部的排水孔流出时，对一定深度的水来说，排尽水的时间$t$与孔直径$d$的关系．取四个同样大小的圆柱形容器，容器的底部各有一个排水孔，排水孔的直径分别是1.5厘米、2.0厘米、3.0厘米、5.0厘米，容器里都放入30厘米深的水，打开排水孔让水流出，用秒表测量水完全流出所需的时间$t$．我们将测得的数据填入下表第二列中，第三列中的数据是水深为10厘米时排尽水的时间．
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{MMM}
+        \toprule[1.5pt]
+              & 30.0cm & 10.0cm \\
+        \midrule
+        1.5cm & 73.0s  & 43.5s  \\
+        2.0cm & 41.2s  & 23.7s  \\
+        3.0cm & 18.4s  & 10.5s  \\
+        5.0cm & 6.8s   & 3.9s   \\
+        \bottomrule[1.5pt]
+    \end{tabularx}
+\end{table}
+
+从上表所列的数据可以看出，对一定深度的水，孔径越大，排尽水的时间越短．但是还看不出它们之间的定量关系．为了分析实验数据，常常利用图象，因为图象很直观，能为我们寻求物理量之间的定量关系提供线索．
+
+现在来做水深是30厘米时，排尽水的时间$t$和排水孔直径$d$的图象．用横坐示表示自变量即孔的直径$d$，用纵坐标表示因变量即排尽水的时间$t$，取表中水深30厘米时$t$与$d$的对应数据，在坐标平面上画出相应的点，把点用平滑曲线连接起来．
+
+从这条曲线可以看到$t$随$d$的增大而减小，但还不能看出它们之间是什么定量关系．于是我们进一步猜想排尽水的时间跟圆孔面积$S$可能有较为简单的关系．我们知道，圆面积$S=\pi d^2/4$，即$S$与$d$成正比，为了检验这一猜想，可以画出$t$与$1/d^2$的图象，如果画出的图象是一条直线，说明$t$与$1/d^2$成正比，即$t$与$d^2$成反比．为此，要计算$1/d^2$的数值，现将直径$d$值、排尽水的$t$值连同$1/d^2$的计算结果填入下表．
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{MMM}
+        \toprule[1.5pt]
+        $d$（cm） & $1/d^2$（cm$^{-2}$） & $t$（s） \\
+        \midrule
+        1.5     & 0.44               & 73.0   \\
+        2.0     & 0.25               & 41.2   \\
+        3.0     & 0.11               & 18.4   \\
+        5.0     & 0.04               & 6.8    \\
+        \bottomrule[1.5pt]
+    \end{tabularx}
+\end{table}
+
+现在做$t$-$1/d^2$的图象，用横坐标表示$1/d^2$，纵坐标表示$t$，在坐标平面上画出相应的点，再把这些点连结起来，画出的图象是不是一条直线？我们的猜想正确吗？写出你的结论以及$t$与$d$的关系式．
+
+用同样方法分别画出水深为10厘米时$t$-$1/d^2$图象．验证一下你得到的结论．
+
+\newpage
+\section{游标卡尺的使用}
+在这个实验里我们要了解游标卡尺的构造原理，并练习使用它来测量长度．游标卡尺是比较精密的测量长度的仪器，用它测量长度可以准确到0.1毫米、0.05毫米或0.02毫米，下面先介绍可以准确到0.1毫米的游标卡尺．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=0.7]
+        \fill[lightgray,draw=black,very thin](-1,2.4)..controls(-0.8,2.2)and(-0.5,1.5)..(-0.5,1.3)--(-0.5,1.0)--(14,1.0)node[below left,text=black]{$a$}--(14,-0.3)--(-1,-0.3)--++(0,-3)--++(-0.5,0.5)--++(-0.5,2.4)--(-2,1.0)--(-1.0,1.0)arc(-90:90:0.05);
+        \foreach \x in {0,1,...,12}
+            {
+                \draw[ultra thin](\x,-0.3)--++(0,0.6)node[above]{\tiny \x};
+                \draw[ultra thin](\x+0.5,-0.25)--++(0,0.5);
+                \foreach \y in {1,2,3,4,6,7,8,9}
+                    {
+                        \draw[ultra thin](\x+0.1*\y,-0.2)--++(0,0.4);
+                    }
+            }
+        \fill[lightgray!70](14,0.25)--(16,0.25)--(16,0.35)node[below,text=black]{$c$}arc(270:180:0.1)--(14,0.45)--cycle;
+        \begin{scope}[xshift=2cm]
+            \fill[gray!80,draw=black,very thin,even odd rule](-1,2.4)..controls(-1.2,2.2)and(-1.5,1.5)..(-1.5,1.3)--(-1.5,1.0)arc(180:270:0.5)--(-1,-3.3)--++(0.5,0.5)--++(0.5,2.4)--++(2,0)node[above left,text=black]{$b$}--++(0,1.45)--++(-2.0,0)--++(0,-0.05)--++(-1.0,0)arc(270:90:0.05)
+            (-0.2,0)--(1.2,0)arc(-90:90:0.4)--++(-1.4,0)arc(90:270:0.4)
+            ;
+            \foreach \x in {1,2,3,4,6,7,8,9}
+                {
+                    \draw[ultra thin] (\x*0.09,0)--++(0,-0.2);
+                }
+            \draw[ultra thin] (0,0)--++(0,-0.3);
+            \draw[ultra thin] (0.9,0)--++(0,-0.3);
+            \draw[ultra thin] (0.45,0)--++(0,-0.25);
+            \fill[lightgray!30](-1,2.4)to[bend right=5](-1.2,1.1)--(-1,1.1);
+            \fill[lightgray!30](-1,-3.3)--++(0.3,0.3)--++(0,2)--++(-0.3,0);
+        \end{scope}
+        \fill[inner color=white,outer color=darkgray](0,-2)circle(1);
+    \end{tikzpicture}
+    \caption{游标卡尺}
+\end{figure}
+
+游标卡尺的构造如图10.1所示，它的主要部分是一条主尺$A$和一条可以沿着主尺滑动的游标尺$B$．左测脚固定在主尺$A$上并与主尺垂直；右测脚与左测脚平行，固定在游标尺$B$上，可以随同游标尺一起沿主尺滑动．利用上面的一对测脚可量槽的宽度和管的内径，利用下面的一对测脚可量零件的厚度和管的外径，利用固定在游标尺上的窄片可量槽和筒的深度，一般游标卡尺最多可以测量十几个厘米的长度．
+
+主尺的最小分度是1毫米，游标尺上有10个小的等分刻度，它们的总长等于9毫米．因此游标尺的每一分度比主尺的最小分度相差0.1毫米，所以当左、右测脚合在一起，游标
+的零刻线与主尺的零刻线重合时，除了游标的第十条刻钱也与主尺的9毫米的刻线重合外，其余刻线都不重合．游标的第一条刻线在主尺的1毫米刻线左边0.1毫米处，游标的第二条刻线在主尺的2毫米刻线左边0.2毫米处，等等（图10.2）．
+
+
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \draw(0,0)--(11,0);
+        \foreach \x in {0.5,1,...,10}
+            {
+                \draw(\x, 0)--(\x, 0.2);
+            }
+        \foreach \y in {.45,.9,...,4.5}
+            {
+                \draw (\y,0)--(\y,-.2);
+            }
+        \draw (0,.4)node [above]{0}--(0,-.4)node [below]{0};
+        \draw (5,0)--(5,.4)node [above]{1};
+        \draw (10,0)--(10,.4)node [above]{2};
+        \draw (2.5,0)--(2.5,.3);
+        \draw (7.5,0)--(7.5,.3) node [above]{主尺};
+        \draw (4.5,0)--(4.5,-.4)node [below]{10};
+        \draw (.45*5,0)--(.45*5,-.3) node [below]{游标};
+        \node at (11,.5){\unit{cm}};
+    \end{tikzpicture}
+    \caption{游标的刻度}
+\end{figure}
+
+在两测脚间放一张厚0.1毫米的纸片，游标尺就向右移动0.1毫米，这时它的第一条刻线与主尺的1毫米刻线重合，共余刻线都与主尺上的刻线不重合，同样，在两测脚间放一张0.5毫米的薄片，游标的第五条刻线将与主尺的5毫米刻线重合，其余刻线都与主尺上的刻线不重合．所以，被测薄片的厚度不超过1毫米时，游标的第几条刻线与主尺的某一刻线重合，就表示薄片的厚度是零点几毫米．
+
+在测量大于1毫米的长度时，整的毫米数由主尺上读出，十分之几毫米从游标上读出．例如，图10.3所示的被测的长度就是2.37厘米．
+
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \draw(0,0)--(9.5,0);
+        \foreach \x in {0.5,1,...,8.5}
+            {
+                \draw(\x, 0)--(\x, 0.2);
+            }
+
+        \foreach \y in {3.35,3.8,...,7.85}
+            {
+                \draw(\y, 0)--(\y, -0.2);
+            }
+        \draw (3.35,0)--(3.35,-.4)node [below]{0};
+        \draw (7.85,0)--(7.85,-.4)node [below]{10};
+        \draw (3.35+.45*5,0)--(3.35+.45*5,-.3) node [below]{游标};
+        \draw (1.5,.4)node [above]{2}--(1.5,0);
+        \draw (6.5,0)--(6.5,.4)node [above]{3};
+        \draw (4,0)--(4,.3)node [above]{主尺};
+        \node at (9,.5){\unit{cm}};
+    \end{tikzpicture}
+    \caption{游标卡尺的读法}
+\end{figure}
+
+常用的游标卡尺还有别的测度方法，但使用原理跟上面讲的完全相同．有的游标尺上有20个小的等分刻度，它的每一分度比主尺的最小分度1毫米相差0.05毫米，使用时，整的毫米数由主尺上读出，再看游标的第几条刻线与主尺某一刻线重合，毫米以下的长度就是二十分之几毫米．用这种游标卡尺测长度可以准确到0.05毫米．还有一种游标尺上有50个小的等分刻度，它的每一分度比主尺的最小分度1毫米相差0.02毫米，你能说明这种游标卡尺的使用方法吗？用它测长度可以准确到多少？
+
+现在我们用游标卡尺来测量金属管的长度、内径和外径，然后算出它的体积．
+
+测长度时量四次（每次测量后让金属管绕轴转过45$^\circ$再测
+量下一次），求出它们的平均值．测内径和外径时，先在管的一端量出两个互相垂直的内外径，再在管的另一端量出两个互相垂直的内外径，然后分别求出内径和外径的平均值，最后算出金属管的体积．
+\newpage
+\section{螺旋测微器的使用}
+螺旋测微器（又叫千分尺）是比游标卡尺更精密的测长度的工具，用它测长度可以准确到0.01毫米．在这个实验里，我们要了解螺旋测微器的构造原理，并练习使用它来测量长度．
+
+我们知道，螺栓在螺母中旋转一周，螺栓便沿旋转轴线方向前进或后退一个螺距的距离，我们可以做出一种螺旋，它的
+螺距很短，例如等于0.5毫米，但是螺栓的圆周很长，例如等于100毫米．这样，螺栓沿轴线方向只移动0.01毫米，它圆周上的点便移动了2毫米．因此，沿轴线方向移动的、不便测量的微小距离，就能用圆周上的点移动的较大距离表示出来．螺旋测微器就是利用这个原理造成的．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=0.7]
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white](-0.1,0.8)rectangle(0.7,-0.8);
+        \draw[ultra thin](0,0)--++(0.7,0);
+        \foreach \x in {0.1,0.2,0.3,0.4,0.6}
+            {
+                \draw[ultra thin](\x,0)--++(0,-0.1);
+                \draw[ultra thin](\x+0.05,0)--++(0,0.1);
+            }
+        \draw[ultra thin](0.5,0)--++(0,-0.15)node[below=0.5mm]{\tiny 5};
+        \draw[ultra thin](0,0.2)--++(0,-0.4)node[below]{\tiny 0};
+        \draw[ultra thin](0.55,0)--++(0,0.1)(0.05,0)--++(0,0.1);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](2,1)--(1.073,1)--++(-0.4,-0.2)--(0.673,-0.8)--++(0.4,-0.2)--(2,-1);
+        \draw[very thin](0.673,-0.8)--(0.673,0.8);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](-2,0.9)--(-0.2,0.9)--(-0.1,0.8)--(-0.1,-0.8)--(-0.2,-0.9)--(-2,-0.9)--++(-0.1,0.1)--(-2.1,0.8)--cycle;
+        \fill[darkgray](-1.1,0)circle(0.3);
+        \fill[gray]([shift=(45:0.4)]-1.1,0)to[bend left=40]++(-135:0.8)to[bend left=40]cycle;
+        \draw[lightgray,line cap=round,ultra thick]([shift=(45:0.4)]-1.1,0)--++(-135:0.8);
+        \foreach \x/\y in {-8/15,-3/20,2/25,7/30}
+            {
+                \draw[ultra thin](0.673,{0.8*sin(7.2*\x+2.7)})--(1.073,{sin(7.2*\x+2.7)})--++(0.3,0)node[right]{\tiny\y};
+            }
+        \foreach \x in {-12,-11,-10,-9,-7,-6,-5,-4,-2,-1,0,1,3,4,5,6,8,9,10,11,12}
+            {
+                \draw[ultra thin](0.673,{0.8*sin(7.2*\x+2.7)})--(1.073,{sin(7.2*\x+2.7)})--++(0.2,0);
+            }
+        \fill[top color=darkgray,bottom color=darkgray, middle color=white,draw,rounded corners=1mm](2,1.1)rectangle(7,-1.1);
+        \fill[pattern=crosshatch dots,rounded corners=1mm](2,1.1)rectangle(7,-1.1);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](7,1)rectangle(8,-1);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](8,0.5)rectangle(8.5,-0.5);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](8.5,0.7)rectangle(9,-0.7)node[below]{$K'$};
+        \foreach \x in {-8,-7,...,8}
+            {
+                \draw[thick,darkgray](8.5,{0.7*sin(10*\x)})--++(0.5,0);
+            }
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](-2.1,-0.3)rectangle(-5.327,0.3)node[above]{$P$};
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](-6,0.3)node[above]{$A$}rectangle(-6.2,-0.3);
+        \fill [top color=gray,bottom color=gray, middle color=white,draw,very thin](-6.9,0.4)rectangle(-6.2,-0.4);
+        \fill[gray](-6.2,-0.4)--(-6.2,-2)--(-7.5,-2)--(-7.5,-1.5)--(-6.9,-0.4)--cycle;
+        \fill[lightgray](-6.2,-2)rectangle(-7.5,-1.5);
+        \fill[lightgray](-1.8,-2)rectangle(-0.5,-1.5);
+        \fill[gray](-1.8,-0.9)rectangle(-0.5,-1.5);
+        \fill[azure6](-6.2,-2)to[bend right=70](-1.8,-2)--(-0.5,-2)arc(360:180:3.5)--cycle;
+        \node at (0.25,-0.8)[below]{$S$};
+        \node at (1.6,-1)[below]{$H$};
+        \node at (5.5,-1.1)[below]{$K$};
+        \node at (-1.3,-2.1)[below]{$F$};
+    \end{tikzpicture}
+    \caption{螺旋测微器}
+\end{figure}
+
+图10.4所示的是常用的螺旋测微器，它的测砧$A$和固定
+刻度$B$固定在尺架$C$上，旋钮$D$、微调旋钮$D'$和可动刻度$E$、测微螺杆$F$连在一起，通过精密螺纹套在$G$上．
+
+精密螺纹的螺距是0.5毫米，即旋钮每转一周，测微螺杆$F$ 前进或后退0.5毫米，可动刻度分成50等分，每一等分表示0.01毫米，这样每转两周，转过100等分时，前进或后退的距离正好是1毫米．
+
+当$A$和$F$并拢时，如果可动刻度$E$的零点恰好跟固定刻度$B$的零点重合，旋出测微螺杆$F$，并使$A$和$F$的面正好接触待测长度的两端，那么$F$向右移动的距离就是所测的长度．这个距离的整的毫米数由固定刻度$B$上读出，小数部分则由可动刻度$E$上读出．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=1.5]
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white](-0.1,0.8)rectangle(0.7,-0.8);
+        \draw[ultra thin](0,0)--++(0.7,0);
+        \foreach \x in {0.1,0.2,0.3,0.4,0.6}
+            {
+                \draw[ultra thin](\x,0)--++(0,-0.1);
+                \draw[ultra thin](\x+0.05,0)--++(0,0.1);
+            }
+        \draw[ultra thin](0.5,0)--++(0,-0.15)node[below=0.5mm]{\tiny 5};
+        \draw[ultra thin](0,0.2)--++(0,-0.4)node[below]{\tiny 0};
+        \draw[ultra thin](0.55,0)--++(0,0.1)(0.05,0)--++(0,0.1);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](2,1)--(1.073,1)--++(-0.4,-0.2)--(0.673,-0.8)--++(0.4,-0.2)--(2,-1);
+        \draw[very thin](0.673,-0.8)--(0.673,0.8);
+        \fill [top color=lightgray,bottom color=lightgray, middle color=white,draw,very thin](-1,0.9)--(-0.2,0.9)--(-0.1,0.8)--(-0.1,-0.8)--(-0.2,-0.9)--(-1,-0.9);
+        \node at (0.25,-0.8)[below]{$S$};
+        \node at (1.6,-1)[below]{$H$};
+        \foreach \x/\y in {-8/15,-3/20,2/25,7/30}
+            {
+                \draw[ultra thin](0.673,{0.8*sin(7.2*\x+2.7)})--(1.073,{sin(7.2*\x+2.7)})--++(0.3,0)node[right]{\tiny\y};
+            }
+        \foreach \x in {-12,-11,-10,-9,-7,-6,-5,-4,-2,-1,0,1,3,4,5,6,8,9,10,11,12}
+            {
+                \draw[ultra thin](0.673,{0.8*sin(7.2*\x+2.7)})--(1.073,{sin(7.2*\x+2.7)})--++(0.2,0);
+            }
+    \end{tikzpicture}
+    \caption{螺旋测微器的读法}
+\end{figure}
+
+在读数的时候，要注意固定刻度尺上表示半毫米的刻线是否已经露出，例如图10.5所示的读数是6.727毫米（别忘了
+还应估计一位读数），而不是6.227毫米．旧式的螺旋测微器上没有表示半毫米的刻度线，读数时更应特别小心．
+
+用螺旋测微器一般最多能测几个厘米的长度．
+
+应该注意的是，螺旋测微器是一种精密的量具，在使用时，在测微螺杆$F$快靠近被测物体时，应停止使用旋钮$D$，改用微调旋钮$D'$， 这样就不致在$F$和被测物体间产生过大的压力，既可以使测量结果精确，又可以保护螺旋测微器．
+
+现在我们用螺旋测微器来测量金属管的外径、金属丝的直径和金属板的厚度．上述的外径、直径和厚度都要在不同位置上各测四次，然后分别求出它们的平均值．
+\newpage
+\section{测量滑动摩擦系数}
+
+这个实验要测量木料之间的滑动摩擦系数．用图10.6的实验装置，将一端装有定滑轮的刨光的长木板调成水平，上面放一个刨光的小木块，用细绳把小木块和砝码盘连接起来．逐步地往砝码盘里添加砝码，直到用手轻推小木块时，看起来小木块在水平的长木板上做匀速运动为止．这时即可认为，小木块在水平方向受到绳的拉力$T$和滑动摩擦力$f$大小相等方向相反，而拉力$T$的大小等于
+砝码和砝码盘的总重量．用弹簧秤称出砝码盘的重量，再加上砝码的重量，就求出了滑动摩擦力$f$的大小．长木板受到的压力$N$的大小等于小木块的重量，称出小木块的重量，就求出了压力$N$．
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=stealth,scale=1.8]
+        \fill [brown!30](1.2,2.0)rectangle(1.8,2.4);
+        \draw [semithick,fill=brown!70](-2.2,1.8)rectangle(2.2,2);
+        \draw [semithick,fill=brown](-1.9,1.8)rectangle(1.9,1.6);
+        \draw [semithick,fill=brown](-2.0,1.8)--(-1.97,0.8)--(-1.83,0.8)--(-1.8,1.8)--cycle;
+        \draw [semithick,fill=brown](2.0,1.8)--(1.97,0.8)--(1.83,0.8)--(1.8,1.8)--cycle;
+        \draw [brown] (1.2,2.2)--(-2.4,2.2);
+        \draw [brown] (-2.5,2.1)--(-2.5,1.7);
+        \fill [darkgray] (-2.4,2.1)circle(0.12);
+        \fill [lightgray] (-2.4,2.1)circle(0.08);
+        \draw [very thick,line cap=round](-2.4,2.1)--(-2.2,2);
+        \fill [left color=lightgray,right color=lightgray, middle color=white,rounded corners=0.15mm](-2.42,1.7)rectangle(-2.58,1.65);
+        \fill [left color=lightgray,right color=lightgray, middle color=white,rounded corners=0.15mm](-2.4,1.65)rectangle(-2.6,1.6);
+        \fill [left color=lightgray,right color=lightgray, middle color=white,rounded corners=0.15mm](-2.4,1.6)rectangle(-2.6,1.55);
+        \fill [darkgray](-2.35,1.55)--(-2.65,1.55)--(-2.6,1.5)--(-2.4,1.5);
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+往小木块上加放砝码，以增大压力$N$．用同样的实验方
+法求出增加一个砝码、增加两个砝码时的滑动摩擦力$f$．
+
+设计一个表格，把你得到的实验数据填入表内．你打算怎样分析这些数据？由这些数据你能得出什么结论？滑动摩擦力跟压力成正比吗？求出木材和木材间的滑动摩擦系数．
+
+把玻璃板放在长木板上，用同样的实验方法测出木材与坡璃间的滑动摩擦系数．
+
+\newpage
+\section{互成角度的两个力的合成}
+
+我们知道，对于两个互成角度的共点力，可以用平行四边
+形法则求出它们的合力，现在我们做实验来验证平行四边形法则．
+
+在桌上平放一块方木板，在方木板上垫一张白纸，把橡皮条的一端固定在板上的$A$点，用两条细绳结在橡皮条的另一端，通过细绳用两个弹簧秤互成角度拉橡皮条，橡皮条伸长，使结点到达某一位置$O$（图10.7）．
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \newcommand\dynanometer[3][0]{
+            \begin{scope}[#2,rotate=#1,inner sep=0pt]
+                \coordinate (A) at (0,2.0);
+                \coordinate (B) at (0,2.0+#3*0.2);
+                \foreach \x/\y in {100/2.0, 70/1.5, 50/1.2, 30/0.7 }
+                    {
+                        \draw[line width=\y pt,gray!\x ]([yshift=1cm]B)circle(0.2);
+                    }
+                \fill[top color=gray, bottom color=gray,middle color=white]([xshift=-1mm,yshift=7mm]B)rectangle([xshift=1mm,yshift=8.7mm]B);
+                \fill[green!30!black]([xshift=2.8mm,yshift=6mm]B)--([xshift=2.8mm,yshift=-1.2cm]B)to[bend left=50]([xshift=-2.8mm,yshift=-1.2cm]B)--([xshift=-2.8mm,yshift=6mm]B)to[bend left=50]cycle;
+                \fill[lightgray,even odd rule](0.1,0.4)arc(360:180:0.1)--++(0,1.6)--++(0.2,0)--cycle(0,0.4)circle(0.05)([xshift=-0.4mm]A)rectangle++(0.8mm,0.5mm);
+                \fill[lightgray!30,even odd rule]([xshift=2.2mm,yshift=5mm]B)--([xshift=2.2mm,yshift=-1.1cm]B)to[bend left]([xshift=-2.2mm,yshift=-1.1cm]B)[rounded corners=2pt]--([xshift=-2.2mm,yshift=5mm]B)[sharp corners]--([xshift=-1mm,yshift=5mm]B)arc(180:0:0.1)[rounded corners=2pt]--cycle[sharp corners]
+                ([xshift=-0.4mm,yshift=2mm]B)rectangle([xshift=0.4mm]A);
+                \draw[darkgray](0.1,0.1)arc(360:90:0.1)--++(0,0.15);
+                \foreach \x in {0,1,...,9}
+                    {
+                        \draw[line width=0.1pt,line join=round,lightgray]([yshift=2mm-\x*0.15mm-\x*#3*0.2mm]B)--++(0.3mm,-0.0375mm-#3*0.05mm)--++(-0.6mm,-0.075mm-#3*0.1mm)--++(0.3mm,-0.0375mm-#3*0.05mm);
+                    }
+                \fill[red]([yshift=-0.2mm]A)--([xshift=-1mm]A)--([xshift=1mm]A);
+                \foreach \x in {0,1,2,3,4}
+                    {
+                        \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm]B)--++(0.07,0)node[rotate=#1,right]{\resizebox{!}{0.5mm}{\x}};
+                        \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm]B)--++(-0.07,0)node[rotate=#1,left]{\resizebox{!}{0.5mm}{\x}};
+                        \foreach \y in {1,2,3,4,6,7,8,9}
+                            {
+                                \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm-\y*0.2mm]B)--++(0.05,0);
+                                \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm-\y*0.2mm]B)--++(-0.05,0);
+                            }
+                        \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm-1mm]B)--++(0.06,0);
+                        \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm-1mm]B)--++(-0.06,0);
+                    }
+                \draw[ultra thin]([xshift=0.5mm,yshift=-1cm]B)--++(0.07,0)node[rotate=#1,right]{\resizebox{!}{0.5mm}{5}};
+                \draw[ultra thin]([xshift=-0.5mm,yshift=-1cm]B)--++(-0.07,0)node[rotate=#1,left]{\resizebox{!}{0.5mm}{5}};
+            \end{scope}
+        }
+        % \useasboundingbox(-1.9,-3.55)rectangle(3,3.15);
+        \tkzDefPoints{0/0/O}
+        \fill[brown!90!black,even odd rule](-2.5,3)rectangle(2.5,-3)(-1.7,2.2)rectangle(1.7,-2.2);
+        \foreach \x in {-1.5,1.5}
+            {
+                \foreach \y in {2.0,-2.0}
+                    {
+                        \fill[lightgray](\x,\y)circle(2pt);
+                        \fill[ball color=gray](\x,\y)circle(1pt);
+                    }
+            }
+        \dynanometer[-135]{shift=(-45:1),scale=0.7}{1}
+        \dynanometer[135]{shift=(-135:1),scale=0.7}{1}
+        \draw[semithick](O)--(-45:1);
+        \draw[semithick](O)--(-135:1);
+        \draw[semithick,brown!40](O)--(90:2.5);
+        \fill[lightgray](0,2.5)circle(2pt);
+        \fill[ball color=gray](0,2.5)circle(1pt)node[text=black,right]{$A$};
+        \tkzLabelPoints[below=1mm](O)
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+记下两个测力计的读数以及结点的位置．描下两条细绳的方向，在纸上按比例作出两个力$F_1$和$F_2$的图示．用平行四边形法则求出合力$F$．
+
+只用一个弹簧秤，通过细绳把橡皮条的结点拉到同样位置$O$．记下弹簧秤的读数和细绳的方向，按同样比例作出这个力$F'$的图示，比较力$F'$与用平行四边形法则求得的合力$F$，可以看出，它们在实验误差范围内是相等的．
+
+改变两个分力的大小和夹角，再做两次．
+
+从实验结果可以得到什么结论？
+
+有兴趣的同学还可以利用上面的器材来再做一个实验．先用两个弹簧秤一起把橡皮条的结点拉到位置$O$．用手指按住结点，使它不能活动．再改变一个弹簧秤的方位，使这个弹簧秤的拉力的大小和方向都跟原来的不同．固定这个弹簧秤的位置，松开结点，于是结点便离开了原来的地方．试着改变另一个弹簧秤的方位，来改变拉力的大小、方向，总可以找到一个适当的方位（并且是唯一的），使结点回到原来的地方，两
+个弹簧秤后来的拉力的合力跟它们原来的拉力的合力有什么关系？在学过力的分解以后，再来说明为什么另一个弹簧秤的方位是唯一的．
+
+\newpage
+\section{练习使用打点计时器}
+打点计时器是一种计时仪器，这个实验我们练习使用打点计时器．
+
+电磁式打点计时器的构造如图10.8所示．通过接线柱给线圈通以交流电，固定在振动片上的振针就随着振动片一起振动，纸带穿过两个限位孔，压在复写纸下面，纸带移动时，振针就在纸带上打下一列小点．这种电磁式打点计时器每隔0.02秒打一个点．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=latex,scale=0.8]
+        \newcommand{\posthead}[2][gray]{
+            \begin{scope}[#2]
+                \fill[left color=#1,right color= #1,middle color=#1!20](0,0)ellipse(0.05 and 0.02);
+                \fill[left color=#1,right color= #1,middle color=#1!20](0.05,0)rectangle(-0.05,0.07);
+                \fill[left color=#1,right color= #1,middle color=#1!20](-0.06,0.07)arc(-180:0:0.06 and 0.02)--(0.06,0.15)--(0.05,0.16)--(-0.05,0.16)--(-0.06,0.15)--cycle;
+                \fill[#1!50!gray](0,0.16)ellipse(0.05 and 0.02);
+                \foreach \x in {75,45,15,-15,-45,-75}
+                    {
+                        \draw[very thin,#1!50!gray]({0.05*sin(\x)},{0.16-0.02*cos(\x)})--({0.06*sin(\x)},{0.15-0.02*cos(\x)})--++(0,-0.08);
+                    }
+            \end{scope}
+        }
+        % \useasboundingbox(-1.9,-3.55)rectangle(3,3.15);
+        \fill[darkgray,rounded corners=2mm](-3,0.75)--(0,0.0)--(3.5,3.5)--(0.5,4.25)--cycle;
+        \fill[darkgray,line join=round](-2.88,0.804)--++(0,0.3)--(3.38,3.746)--++(0,-0.3)--cycle;
+        \fill[gray,rounded corners=2mm](-3,1.05)--(0,0.3)--(3.5,3.8)--(0.5,4.55)--cycle;
+        \draw[brown4,double=brown8](0.7,4.125)..controls(1.6,4.355)and(2.2,4.931)..(2.1,5.722)(2.7,3.634)..controls(3.2,4.063)and(3.5,4.738)..(4.2,5.303);
+        \posthead[green!80!black]{xshift=2.7cm,yshift=3.625cm,scale=2}
+        \posthead[red!80!black]{xshift=0.7cm,yshift=4.125cm,scale=2}
+        \node at (3.2,5.8){接电源};
+        \fill[lightgray](1.35,4.175)--(1.75,4.075)--(2.05,4.375)--(1.65,4.475)--cycle;
+        \fill[darkgray](2.05,4.375)--(2.05,3.975)--(1.75,3.675)--(1.75,4.075)--cycle;
+        \draw[fill=gray](1.7,4.275)ellipse(0.1 and 0.05);
+        \draw[lightgray](1.7,4.275)--++({0.1*cos(30)} ,{0.05*sin(30)})(1.7,4.275)--++({0.1*cos(210)} ,{0.05*sin(210)});
+        \fill[lightgray!50](0.95,3.875)--(0.95,4.375)--(2.15,4.075)--(2.15,3.575)--cycle;
+        \fill[brown6,rounded corners=1mm](1.15,3.825)--(1.15,4.225)--(1.95,4.025)--(1.95,3.625)--cycle;
+        \fill[brown6](1.175,4.17)--++(-1.2,-1.2)--(0.72,2.475)--++(1.2,1.2);
+        \foreach \x in{0.02,0.04,...,1.2}
+            {
+                \draw[very thin,darkgray,rounded corners=1mm](1.95-\x,3.705-\x)--++(0,0.32)--++(-0.732,0.183);
+            }
+        \fill[lightgray!50](-0.25,2.675)--(-0.25,3.175)--(0.95,2.875)--(0.95,2.375)--cycle;
+        \fill[gray,rounded corners=1mm](-0.05,2.625)--(-0.05,3.025)--(0.75,2.825)--(0.75,2.425)--cycle;
+        \fill[darkgray,rounded corners=0.5mm](0.05,2.7)--(0.05,2.9)--(0.65,2.75)--(0.65,2.55)--cycle;
+        \fill[darkgray](-0.255,1.92)--(0.145,1.82)--(0.145,1.87)--(-0.255,1.97);
+        \fill[black!90](0.145,1.87)--(-0.255,1.97)--(-0.095,2.13)--(0.305,2.03);
+        \fill[lightgray!20](-2.76,1.79)--(1.04,0.84)--(1.36,1.16)--(-2.44,2.11);
+        \draw(-2.76,1.79)--(1.04,0.84)(1.36,1.16)--(-2.44,2.11);
+        \fill[blue!80!black](-1.350,0.825)..controls(-1.000,0.737)and(-0.563,0.737)..
+        (-0.300,1.000)..controls(-0.125,1.175)and(-0.300,1.438)..
+        (-0.650,1.525)..controls(-1.000,1.613)and(-1.438,1.613)..
+        (-1.700,1.350)..controls(-1.875,1.175)and(-1.700,0.912)..cycle;
+        \fill[lightgray,draw,ultra thin](-0.71,1.655)--(-0.7,1.475)--(-0.69,1.655);
+        \fill[left color=gray,right color=gray,middle color=white](-0.920,1.699)--(-0.920,1.659)..controls(-0.918,1.617)and(-0.872,1.573)..  (-0.800,1.555)..controls(-0.700,1.530)and(-0.550,1.555)..(-0.500,1.605)--(-0.500,1.645);
+        \fill[lightgray](0.15,2.795)--(-0.900,1.745)..controls(-0.914,1.731)and(-0.920,1.715)..(-0.920,1.699)..controls(-0.918,1.657)and(-0.872,1.613)..(-0.800,1.595)..controls(-0.700,1.570)and(-0.550,1.595)..(-0.500,1.645)--(0.55,2.695);
+        \fill[darkgray!85](-0.500,1.645)--(0.55,2.695)--(0.55,2.655)--(-0.500,1.605);
+        \draw[darkgray](-0.7,1.695)--++(0,0.1);
+        \draw[double=lightgray!20,rounded corners=0.4mm](-2.24,1.61)--++(0,0.15)--++(0.37,0.37)--++(0,-0.15);
+        \draw[double=lightgray!20,rounded corners=0.4mm](0.44,0.94)--++(0,0.15)--++(0.37,0.37)--++(0,-0.15);
+        \fill[ball color=lightgray](-1,1.175)ellipse(0.1 and 0.06);
+        \fill[darkgray](-0.255,2.37)--(0.145,2.27)--(0.145,2.32)--(-0.255,2.42);
+        \fill[lightgray!70](-0.095,2.58)--(-0.255,2.42)--(0.145,2.320)..controls(0.245,2.295)and(0.385,2.310)..
+        (0.425,2.350)..controls(0.439,2.364)and(0.446,2.378)..
+        (0.446,2.391)..controls(0.445,2.430)and(0.381,2.461)..(0.305,2.480)--cycle;
+        \fill[left color=darkgray,right color=darkgray,middle color=white](0.145,1.820)..controls(0.245,1.795)and(0.385,1.810)..(0.425,1.850)..controls(0.439,1.864)and(0.446,1.878)..(0.446,1.891)--(0.446,2.391)..controls(0.446,2.378)and(0.439,2.364)..(0.425,2.350)..controls(0.385,2.310)and(0.245,2.295)..(0.145,2.320)--cycle;
+
+        \draw[thin](0.9,3.5)--++(135:1.5)node[left]{线圈};
+        \draw[thin](-0.7,1.75)--++(135:1.5)node[left]{振针};
+        \draw[thin](-0.2,2.25)--++(135:1.5)node[left]{振片};
+        \draw[thin](-1.3,1.2)--++(-135:1.2)node[left]{复写纸};
+        \draw[thin](0.64,1.29)--++(-75:1.0)node[right]{限位孔};
+        \draw[thin](1.04,1.04)--++(30:1.0)node[right]{纸带};
+        \draw[thin](0.38,2.12)--++(10:2.2)node[right]{永久磁铁};
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+通常纸带由所研究的运动物体拖着一起运动，所以纸带上的一列小点就相应地表示出运动物体在不同时刻的位置，用这条打了点的纸带就可以研究物体运动的情况．
+
+现在我们来做实验，把打点计时器固定在桌子上，让纸
+带穿过两个限位孔，压在复写纸的下面．把打点计时器的两个接线柱接到6伏特的低压交流电源上，用手水平地拉动纸
+带，使它在水平方向运动，纸带上就打下一列小点．
+
+取下纸带，从能看得清的某个点数起，数一数纸带上共有多少个点？打下这些点，纸带的运动时间$t$是多少？打下这些点，纸带通过的距离$s$是多少？用直尺量出这个距离，利用公式$\bar v=s/t$算出纸带在这段时间内的平均速度．
+
+在纸带上找出连续的6个点，分别标上记号$A,B,C,D,E,F$．用直尺量出相邻的两个点间的距离$s_1$, $s_2$, $s_3$, $s_4$, $s_5$，把数据填入下表．根据这些数据，判断纸带的这段运动是匀速运动还是变速运动，并说明理由．
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{M|M|M|M|M}
+        \hline
+        $s_1$（m） & $s_2$（m） & $s_3$（m） & $s_4$（m） & $s_5$（m） \\
+        \hline
+                 &          &          &          &          \\
+        \hline
+    \end{tabularx}
+\end{table}
+\newpage
+\section{研究匀变速直线运动}
+在这个实验里，我们用打点计时器来研究匀变速直线运动．
+
+实验装置如图10.9所示，把附有滑轮的长木板平放在实验桌上，使滑轮伸出桌面．打点计时器固定在木板的没有滑轮的一端，把一条细绳拴在小车上，细绳跨过滑轮，下边吊着适量的钩码．穿过打点计时器的纸带固定在小车的后面，先使小车停在靠近打点计时器处，接通电源后，放开小车，让小车开始运动，随若小车的运动，打点计时器就在纸带上打下一列小点，换上新的纸带再重做两次．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \draw[fill=brown5](0.5,-2)--(0.5,0)--(0.7,0)--(0.7,-2);
+        \draw[fill=brown6](0.5,-2)--(0.5,0)--(0.41,0)--(0.41,-1.88);
+        \draw[fill=brown5](-1.0,-0.2)--(-1.0,2)--(-0.8,2)--(-0.8,-0.2);
+        \draw[fill=brown6](-1.0,-0.2)--(-1.0,2)--(-1.09,2)--(-1.09,-0.08);
+        \draw[fill=brown6](9,0)--(0,0)--(0,-0.2)--(9,-0.2);
+        \draw[fill=brown8](9,0)--(0,0)--(-1.5,2)--(9,2);
+        \draw[fill=brown7](0,0)--(-1.5,2)--(-1.5,1.8)--(0,-0.2)--cycle;
+        \draw[fill=brown9,line join=round](-0.75,0.6)--(8,0.6)--(7.4,1.4)--(-1.35,1.4)--cycle;
+        \draw[fill=brown8,line join=round](-0.75,0.6)--(-1.35,1.4)--(-1.35,1.3)--(-0.75,0.5)--cycle;
+        \draw[fill=brown7](-0.75,0.6)rectangle(8,0.5);
+
+        \draw(-1.6,1.2)--(-1.6,0);
+        \draw[fill=lightgray](-1.5,1.2)circle(0.15);
+        \fill[darkgray](-1.5,1.2)circle(0.1);
+        \draw[top color=gray,bottom color=gray,middle color=white,line join=round](-1.05,0.9)--(-1.5,1.2)--(-1.05,1.0);
+        \foreach \y in {0,-0.5,-1.0}
+            {
+                \draw(-1.65,\y-0.05)arc(180:-90:0.05)--++(0,-0.3)arc(90:360:0.05);
+                \fill[left color=darkgray,right color=darkgray,middle color=white](-1.75,\y-0.35)rectangle++(0.3,0.2);
+            }
+        %% 打点计时器及纸带
+        \fill[gray!70](6.7,0.65)rectangle(7.5,0.7);
+        \fill[gray!50](6.7,0.65)--(6.1,1.45)--(6.1,1.5)--(6.7,0.7);
+        \fill[gray!30](6.7,0.7)--(6.1,1.5)--(6.9,1.5)--(7.5,0.7);
+        \draw(6.3,1.45)..controls(6.0,1.45)and(5.9,1.6)..(5.7,2.1);
+        \draw(6.39,1.33)..controls(6.0,1.45)and(5.7,1.5)..(5.6,2.1)node[above]{接电源};
+        \foreach \x/\y in {6.3/1.4,6.39/1.28}
+            {
+                \fill[left color=darkgray,right color=darkgray,middle color=white](\x,\y)ellipse(0.02 and 0.01);
+                \fill[left color=darkgray,right color=darkgray,middle color=white](\x-0.02,\y)rectangle++(0.04,0.05);
+                \fill[left color=darkgray,right color=darkgray,middle color=white](\x,\y+0.05)ellipse(0.03 and 0.015);
+                \fill[left color=darkgray,right color=darkgray,middle color=white](\x-0.03,\y+0.05)rectangle++(0.06,0.02);
+                \fill[lightgray](\x,\y+0.07)ellipse(0.03 and 0.015);
+            }
+        \draw[double=lightgray!20,line width=0.1mm,double distance=2pt](6,0.9)--(9,0.9);
+        \fill[blue!80!black](7.09,0.88)ellipse(0.15 and 0.075);
+        \fill[lightgray,draw=black](6.45,1.4)rectangle(6.95,1.6);
+        \foreach \x in {0,1,...,12}
+            {
+                \draw[brown6!80!red,rounded corners=0.4mm](6.6+0.015*\x,1.4-0.02*\x)--++(0,0.15)--++(0.2,0)--++(0,-0.15)--cycle;
+            }
+        \fill[lightgray,draw=black](6.66,1.12)rectangle(7.16,1.32);
+        \fill[gray,draw=black,ultra thin](6.84,1.12)--(6.9,1.04)--(7.16,1.04)--(7.1,1.12)--cycle;
+        \draw[lightgray](7.075,1)--(7.075,0.92);
+        \draw[ultra thin,fill=lightgray](6.86,1.22)--(7.025,1)..controls(7.043,0.976)and(7.143,0.976)..(7.125,1)--(6.96,1.22)--cycle;
+        \fill[darkgray!90,](7.1,1.12)--(7.16,1.04)arc(-90:90:0.025)--cycle;
+        \fill[gray!70,draw=black,ultra thin](6.84,1.17)--(6.9,1.09)--(7.16,1.09)arc(90:36.87:0.025)--++(-0.06,0.08)arc(36.87:90:0.025)--cycle;
+        %% 小车
+        \fill[darkgray](5.2,0.8)circle(0.1)(5.8,0.8)circle(0.1);
+        \fill[lightgray,draw=black,line join=round](4.7,1.2)rectangle(5.7,1.5);
+        \fill[gray,draw=black,line join=round](5.7,1.5)--(5.7,1.2)--(6,0.8)--(6,1.1)--cycle;
+        \fill[lightgray!40,draw=black,line join=round](4.7,1.2)--(5,0.8)--(6,0.8)--(5.7,1.2)--cycle;
+        \fill[lightgray,draw=black,line join=round](5,0.8)rectangle(6,1.1);
+        \fill[lightgray!60,draw=black,line join=round](4.7,1.2)--(5,0.8)--(5,1.1)--(4.7,1.5)--cycle;
+        \draw(-1.5,1.3)--(4.85,1.3);
+        \draw[thin](7.5,0.9)--++(45:0.5)node[right]{纸带};
+        \draw[thin](6.8,0.68)--++(-135:0.6)node[left]{打点计时器};
+        \draw[thin](5.1,1.5)--++(135:0.4)node[left]{小车};
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+下面我们来根据实验结果研究小车的运动情况，首先判断小车是否做匀变速运动．
+
+观察纸带上的点可以发现，由于打点计时器打点很快，各点间的距离不大，特别是最初几个点比较密集，为了避免由此而产生的在测量和计算上的困难，我们可以不从第一个点开始，而在后面找一个比较方便的点开始．另外，我们还可以不用每打一次点的时间作为时间的单位，例如用每打五次点的时间作为时间的单位．这样，我们在选好的开始点下标明0，在第六点标明1，在第十一点标明2……，这些点叫做\textbf{计数点}．
+
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \draw[thick](-1,0)--(14,0)(-1,1)--(14,1);
+        \foreach \x[count=\i] in {A,B,C,D,E}
+            {
+                \fill(0.5*\i*\i,0.5)circle(1pt)node[below]{$\x$};
+                \draw[thin](0.5*\i*\i,0.55)--++(0,0.2);
+            }
+        \draw[decorate,decoration={random steps}](-1,0)--(-1,1)(14,0)--(14,1);
+        \foreach \x in {1,2,3,4}
+            {
+                \draw[thin,<->](0.5*\x*\x,0.6)--++(\x+0.5,0)node[above,midway]{$s_{\x}$};
+            }
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+怎样来判断小车是否做匀变速运动呢？如图10.10所示，我们在纸带上任意选取几个连续计数点$A,B,C,D,E,\ldots$，用尺量出相邻计数点间的距离$s_1,s_2,s_3,s_4,\ldots$，再算出相邻的距离之差$\Delta s_1=s_2-s_1, \Delta s_2=s_3-s_2,\Delta s_3=s_4-s_3,\ldots$， 我们知道，如果小车做匀变速运动，加速度是$a$，那么，在连续相等的时间$T$内，$\Delta s_1=\Delta s_2=\Delta s_3\cdots=aT^2$（见第二章，练习九，第6题）．在这个实验里，$T$就是打点计时器每打五个点所用的时间．可见，根据$\Delta s_1,\Delta s_2,\Delta s_3,\ldots$是否相等，就可以判断小车是否做匀变速运动，设计一个表格，把测出的$s_1,s_2,s_3,\ldots$的数值和算出的$\Delta s_1,\Delta s_2,\Delta s_3,\ldots$的数值填入表内，可以看出各个$\Delta s$在误差范围内相等，表示小车是做匀变速运动．
+
+下面我们利用速度图象来求小车的加速度，先求出以$A$为起点，小车经过$T,2T,3T,\ldots$时的即时速度$v_1,v_2,v_3,\ldots$，即打点计时器打下$B,C,D,\ldots$各点时的即时速度．小车是做匀变速直线运动，它在某一段时间内的平均速度等于这段时间中点时刻的即时速度（见第二章，练习九，第5题），所以
+\[v_1=\frac{s_1+s_2}{2T},\; v_2=\frac{s_2+s_3}{2T},\;v_3=\frac{s_3+s_4}{2T},\; \ldots\]
+打点计时器每隔0.02秒打一个点，所以$T=\qty{0.02}{s}\times 5=\qty{0.1}{s}$，再根据测得的$s_1,s_2,s_3,\ldots$的数据，就可以算出$v_1,v_2,v_3,\ldots$．设计一个表格，把对应的$T,v$值填入表内．用横坐标表示时间，用纵坐标表示速度，在坐标平面上画出$(T,v_1),(2T,v_2),(3T,v_3),\ldots$各点．把这些点连结起来可以画出一条直线．画直线时尽量让多数的点在一直线上，不在直线上的各点，使它们对称地分布在直线的两旁．
+
+从速度图象上求出直线的斜率，就得到小车的加速度$a$．
+
+不用速度图象来求小车的加速度，是否还有其他的方法？想出一种方法来，用这种方法根据实验数据求出小车的加速度，并跟用速度图象求出的数值相比较．
+
+\section{研究加速度和力的关系}
+这个实验的具体作法见第三章第三节课文．
+
+\section{研究加速度和质量的关系}
+这个实验的具体作法见第三章第四节课文．
+
+\subsection*{实验八和实验九中的系统误差}
+在实验八和实验九中，我们认为小车受到的拉力等于砂和砂桶的总重量，其实，小车受到的拉力并不正好等于砂和砂桶的总重量，还跟小车的质量、砂和砂桶的总质量有关系．为什么呢？
+
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \begin{scope}
+            \draw [semithick](-.25, -.4) rectangle (.25, .4);
+            \draw [thick,<->] (0,1.5)node [right]{$T$}--(0,-1.5)node [right]{$mg$};
+            \node at (.5,0){$m$};
+            \fill (0,0) circle(2pt);
+            \draw [thick,->](-.5,0)--(-.5,-1)node [below]{$a$};
+        \end{scope}
+        %     \end{tikzpicture}
+        % \qquad \qquad 
+        %         \begin{tikzpicture}[>=latex, thick]
+        \begin{scope}[xshift=5cm,yshift=-1.5cm]
+            \fill [pattern =north east lines](-1.5, 0) rectangle (1.5, -.2);
+            \draw [thick](-1.5,0)--(1.5,0);
+            \draw [semithick](-1,.25) rectangle (1,1.25);
+            \draw [thick,->](-1,.75)--(-2,.75)node [above]{$T$};
+            \fill (-1,.75) circle(2pt);
+            \draw [thick,->](.5,1.8)--node [above]{$a$}(-.5,1.8);
+            \node at (0,.75){$M$};
+            \draw [fill=gray] (-.5, .25) circle (0.25);
+            \draw [fill=gray] (.5, .25) circle (0.25);
+        \end{scope}
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+现在我们把装砂的砂桶和小车（连同砝码）分别作为研究对象，用隔离法分别分析它们的受力情况，并分别应用牛顿第二定律列出方程．它们的受力图如图10.11所示，它们的加速度的大小都是$a$，所以
+\begin{align}
+    \text{对小车} & \quad T=ma    \\
+    \text{对砂桶} & \quad mg-T=ma
+\end{align}
+从式(1)(2)消去$a$，解出$T$：
+\begin{equation}
+    T=\frac{M}{M+m}mg
+\end{equation}
+
+可见小车受到的拉力$T$并不等于砂和砂桶的总重量$mg$，而是比$mg$小一些，只有在砂和砂桶的总质量$m$远小于小车
+和砝码的总质量$M$，即$m\ll M$时，才可以近似地取砂和砂桶的总重量为小车所受的拉力．在实验中，$m\ll M$这个条件通常都能满足，所以取砂和砂桶的总重量为小车受到的拉力，并认为只要砂和砂桶的总重量保持不变，小车受到的拉力也保持不变，这样做就包含了由于实验原理不完善而带来的系统误差．
+\newpage
+\section{研究平抛物体的运动}
+这个实验要描出平抛物体运动的轨迹，并求出平抛物体的初速度．
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=stealth,scale=1.8]
+        \draw[very thick](-1.8,-1)rectangle(1.8,1)node[below left]{按手指处};
+        \draw[thin,densely dashed](-1.8,0)--(-0.1,0)node[at start,above right]{沿此线折成直角};
+        \draw[thin,densely dashed](1.8,0)--(0.1,0);
+        \draw(-0.1,0)--(-0.1,0.2)--(0.1,0.2)node[midway,above]{$A$}--(0.1,0)[rounded corners=4mm]--(0.5,0)--(0.5,-1)--(-0.5,-1)--(-0.5,0)[sharp corners]--cycle;
+        \draw[thin,<->](-0.5,-0.5)--(0.5,-0.5)node[midway,above]{$R$};
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+实验装置如图10.13所示，用图钉把白纸钉在竖直的木板上，在木板的左上角固定着斜槽，固定斜槽时，要注意使它在末端$O$点的切线是水平的，在纸上把这个$O$点记下来，并利用重锤线在纸上通出通过$O$点的竖直线，把事先做好的有孔的纸卡片（图10.12）用手按在竖直木板上，上下调整纸卡
+片的位置，使槽上滚下的小球正好从纸卡片上的孔穿过．用铅笔在白纸上记下小球穿过这个孔时的位置．用同样的方法，记下小球穿过孔的一系列位置．实验时要注意，小球每次要在相同的高度从槽上滚下．
+\vspace*{-0.5em}
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=1.3]
+        \useasboundingbox(-5,1.5)rectangle(3.1,-2.8);
+        \draw[fill=brown5](-5,-1.5475)--(-1.8,-1.5475)--(-1.8,-1.5775)--(-5,-1.5775);
+        \draw[fill=brown7](-5,-1.7775)--(-1.8,-1.7775)--(-1.8,-1.5775)--(-5,-1.5775);
+        \draw[fill=brown7](-1.9,-0.75)rectangle(-1.5,-4.75)(-0.3,0.6)rectangle(0.1,-3.55);
+        \draw[fill=brown5](-1.5,-0.75)--(-1.5,-4.75)--(-1.4,-4.675)--(-1.4,-0.75)(0.1,0.6)--(0.1,-3.55)--(0.2,-3.475)--(0.2,0.675);
+        \draw[fill=brown8](-5,-0.75)--(-1,-0.75)--(-1,-0.55)--(-5,-0.55);
+        \draw[fill=brown6](-1,-0.75)--(-1,-0.55)--(1,0.95)--(1,0.75)--cycle;
+        \draw[fill=brown9](-5,-0.55)--(-1,-0.55)--(1,0.95)--(-5,0.95);
+        \draw[fill=brown4](-1.4,-1.3)--(-0.2,-0.4)--(0,-0.4)--(-1.4,-1.45);
+        \draw[fill=brown6](-1.4,-1.65)--(0,-0.6)--(0,-0.4)--(-1.4,-1.45);
+        \begin{scope}[yshift=2mm,xshift=5mm]
+            \draw[fill=brown7](-4.5,-0.375)rectangle(-0.5,-0.275);
+            \draw[fill=brown5](-0.5,-0.375)--(-0.5,-0.275)--(0.5,0.475)--(0.5,0.375)--cycle;
+            \draw[fill=brown8](-4.5,-0.275)--(-0.5,-0.275)--(0.5,0.475)--(-3.5,0.475)--cycle;
+            \fill[gray](-3.57,-0.0275)--(-3.47,-0.0275)--(-3.13,0.2275)--(-3.23,0.2275);
+            \fill[darkgray](-3.51,0.0175)rectangle(-3.41,0.9)(-3.29,0.1825)rectangle(-3.19,0.9);
+            \fill[lightgray](-0.16,-0.02)[rounded corners=3mm]--(-2.16,-0.02)[sharp corners]--(-3.66,0.98)--(-3.34,1.22)[rounded corners=3mm]--(-1.84,0.22)[sharp corners]--(0.16,0.22);
+            \draw[rounded corners=3mm](0.032,0.124)--++(-2,0)--++(-1.5,1.0);
+            \draw[rounded corners=3mm](-0.032,0.076)--++(-2,0)--++(-1.5,1.0);
+            \fill[brown8](0,1.0)rectangle(2.5,-3);
+            \fill[brown4](2.54,1.03)rectangle(2.5,-3);
+            \fill[brown6](0,1)--(0.04,1.03)--(2.54,1.03)--(2.5,1);
+            \fill[lightgray!20](0,0.9)rectangle(2.4,-3);
+            \draw[densely dashed](0,0.1)parabola(1.5,-2.15);
+            \draw(1.2,-1.34)ellipse(0.1 and 0.04);
+            \draw(0.95,-1.3)rectangle(1.55,-1.0);
+            \draw(0.95,-1.3)--++(-0.16,-0.12)--++(0.6,0)--++(0.16,0.12);
+            \fill[ball color=white](0.1,0.8)circle(1pt);
+            \fill[ball color=white](2.3,0.8)circle(1pt);
+        \end{scope}
+    \end{tikzpicture}
+    \vspace*{1.5cm}
+    \caption{}
+\end{figure}
+
+取下白纸，以$O$点为原点画出竖直向下的Y轴和水平向右的X轴，根据记下的小球穿过孔的一系列位置，用平滑的曲线画出小球做平抛运动的轨迹．
+
+我们知道，平抛运动可以看作是两个分运动的合运动：一个是水平方向的匀速直线运动，速度等于平抛物体的初速度；另一个是竖直方向的自由落体运动，这样，测出曲线上某一点的坐标：$x$和$y$，已知$g$的数值，利用公式$y=\dfrac{1}{2}gt^2$和$x=vt$
+就可以求出小球的水平分速度，这个分速度就是小球做平抛运动的初速度．
+
+在曲线上选取几个不同的点，测出它们的坐标．用上述办法分别求出小球的初速度，最后算出平均值．
+\newpage
+\section{验证向心力公式}
+在这个实验里，我们来验证向心力公式$F=mr\omega^2$．
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \fill[top color=lightgray,bottom color=lightgray,middle color=white](-3.9,4.45)rectangle(1.3,4.55);
+        \fill[top color=darkgray,bottom color=darkgray,middle color=white,rounded corners=0.5mm](1.9,4.2)rectangle(1.3,4.8);
+        \node at(1.6,4.8)[above]{$B$};
+        \fill[left color=lightgray,right color=lightgray,middle color=white](-0.1,0)rectangle(0.1,4.7);
+        \draw[thin,postaction={decorate},decoration={markings,mark={at position 0.5 with{\arrow{stealth}}}}](-0.3,4.2)arc(180:360:0.3 and 0.2);
+        % \fill[ball color=gray](0,4.75)circle(0.05);
+        \fill[left color=lightgray,right color=lightgray,middle color=white](0.15,4.8)rectangle(-0.15,4.9);
+        \foreach \x in {-80,-60,...,80}
+            {
+                \draw[gray]({0.15*sin(\x)},4.8)--++(0,0.1);
+            }
+        \fill[left color=darkgray,right color=darkgray,middle color=white](0.05,4.8)rectangle(-0.05,4.7);
+        \fill[left color=lightgray,right color=lightgray,middle color=white](-3.05,0)--(-3.05,2.3)node[midway,left]{$P$}--(-3,2.5)--(-2.95,2.3)--(-2.95,0)--cycle;
+        \fill[left color=gray,right color=gray,middle color=white](-3.2,0)rectangle(-2.8,0.5);
+        \fill[left color=gray,right color=gray,middle color=white](-0.3,0)rectangle(0.3,0.8);
+        \draw(-3,3)circle(0.05);
+        \draw(-3.3,2.85)node[left]{$A$}--(-2.7,2.85)(-2.67,2.85)circle(0.03);
+        \draw[decorate,decoration={coil,segment length=1mm,amplitude=1mm}](-2.64,2.85)--(-0.12,2.85);
+        \fill[left color=darkgray,right color=darkgray,middle color=white](-0.12,2.9)rectangle(0.12,2.8);
+        \fill[left color=darkgray,right color=darkgray,middle color=white](-3.2,3)--(-3.2,2.7)--(-3,2.5)--(-2.8,2.7)--(-2.8,3)--cycle;
+        \fill[darkgray](-3.9,0)--(-4,-0.2)--(-3.6,-0.2)--(-3.5,-0.1)--(0.5,-0.1)--(0.6,-0.2)--(1,-0.2)--(0.9,0)--cycle;
+        \draw(-3,3.05)--(-3,4.55);
+    \end{tikzpicture}
+    \captionsetup{aboveskip=2cm}
+    \caption{}
+\end{figure}
+
+图10.14是实验装置的示意图，在滚花部分用手指搓动转轴，使重锤$A$在水平面内做匀速圆周运动，并保持悬线竖直，弹簧水平拉长．这时，重锤做匀速圆周运动的向心力就是弹簧的拉力．（为什么？）
+
+实验时，先称出重锤$A$的质量$m$，把它用线绳挂在水平横杆的一端，调整横杆和平衡体$B$的位置，使横杆两边大致平衡．量出重锤的臂长$r$，移动指示器$P$的位置，使它在重锰的正下方．在重锤和转轴之间挂上水平弹簧，因而重锤被拉向转轴．
+
+然后，用手指搓动转轴，使重锤转动，并且保持重锤每转一周都从指示器的正上方通过．这时，可以看作重锤在做半
+径为$r$的匀速圆周运动，测量重锤转100圈需要的时间，测
+量三次，靠出其平均时间$t$．利用公式$\omega=200\pi/t$（自己推导这个公式）计算出$\omega$．将实验得到的$m$、$r$和$\omega$代入向心力公式，算出向心力$F$．
+
+停止转动后，用测力计钩住重锤，把它水平拉到指示器的正上方，这时测力计测得的拉力$F'$就是重锤做半径为$r$的匀速圆周运动所需的向心力．
+
+把上述的测量数据和计算结果填入自己设计的表中，比较用向心力公式得到的$F$和用测力计测得的$P$在误差范围是否相等．
+
+分别改变重锤的质量$m$、半径$r$和弹簧的倔强系数，重做
+上述实验，并比较$F$和$F'$．
+\newpage
+\section{研究有固定转动轴物体的平衡条件}
+在这个实验里，我们利用力矩盘来研究有同定转动轴物体的平衡条件．
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \newcommand\dynanometer[3][0]{
+            \begin{scope}[#2,rotate=#1,inner sep=0pt]
+                \coordinate (A) at (0,2.0);
+                \coordinate (B) at (0,2.0+#3*0.2);
+                \foreach \x/\y in {100/2.0, 70/1.5, 50/1.2, 30/0.7 }
+                    {
+                        \draw[line width=\y pt,gray!\x ]([yshift=1cm]B)circle(0.2);
+                    }
+                \fill[top color=gray, bottom color=gray,middle color=white]([xshift=-1mm,yshift=7mm]B)rectangle([xshift=1mm,yshift=8.7mm]B);
+                \fill[green!30!black]([xshift=2.8mm,yshift=6mm]B)--([xshift=2.8mm,yshift=-1.2cm]B)to[bend left=50]([xshift=-2.8mm,yshift=-1.2cm]B)--([xshift=-2.8mm,yshift=6mm]B)to[bend left=50]cycle;
+                \fill[lightgray,even odd rule](0.1,0.4)arc(360:180:0.1)--++(0,1.6)--++(0.2,0)--cycle(0,0.4)circle(0.05)([xshift=-0.4mm]A)rectangle++(0.8mm,0.5mm);
+                \fill[lightgray!30,even odd rule]([xshift=2.2mm,yshift=5mm]B)--([xshift=2.2mm,yshift=-1.1cm]B)to[bend left]([xshift=-2.2mm,yshift=-1.1cm]B)[rounded corners=2pt]--([xshift=-2.2mm,yshift=5mm]B)[sharp corners]--([xshift=-1mm,yshift=5mm]B)arc(180:0:0.1)[rounded corners=2pt]--cycle[sharp corners]
+                ([xshift=-0.4mm,yshift=2mm]B)rectangle([xshift=0.4mm]A);
+                \draw[darkgray](0.1,0.1)arc(360:90:0.1)--++(0,0.15);
+                \foreach \x in {0,1,...,9}
+                    {
+                        \draw[line width=0.1pt,line join=round,lightgray]([yshift=2mm-\x*0.15mm-\x*#3*0.2mm]B)--++(0.3mm,-0.0375mm-#3*0.05mm)--++(-0.6mm,-0.075mm-#3*0.1mm)--++(0.3mm,-0.0375mm-#3*0.05mm);
+                    }
+                \fill[red]([yshift=-0.2mm]A)--([xshift=-1mm]A)--([xshift=1mm]A);
+                \foreach \x in {0,1,2,3,4}
+                    {
+                        \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm]B)--++(0.07,0)node[rotate=#1,right]{\resizebox{!}{0.5mm}{\x}};
+                        \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm]B)--++(-0.07,0)node[rotate=#1,left]{\resizebox{!}{0.5mm}{\x}};
+                        \foreach \y in {1,2,3,4,6,7,8,9}
+                            {
+                                \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm-\y*0.2mm]B)--++(0.05,0);
+                                \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm-\y*0.2mm]B)--++(-0.05,0);
+                            }
+                        \draw[ultra thin]([xshift=0.5mm,yshift=-\x*2mm-1mm]B)--++(0.06,0);
+                        \draw[ultra thin]([xshift=-0.5mm,yshift=-\x*2mm-1mm]B)--++(-0.06,0);
+                    }
+                \draw[ultra thin]([xshift=0.5mm,yshift=-1cm]B)--++(0.07,0)node[rotate=#1,right]{\resizebox{!}{0.5mm}{5}};
+                \draw[ultra thin]([xshift=-0.5mm,yshift=-1cm]B)--++(-0.07,0)node[rotate=#1,left]{\resizebox{!}{0.5mm}{5}};
+            \end{scope}
+        }
+        \fill[left color=lightgray,right color=lightgray,middle color=white](-0.1,-3)rectangle(0.1,3.7);
+        \fill[darkgray](-0.9,-3)--(-1,-3.2)--(-0.6,-3.2)--(-0.5,-3.1)--(0.5,-3.1)--(0.6,-3.2)--(1,-3.2)--(0.9,-3)--cycle;
+        \fill[outer color=lightgray!30,inner color=white,draw](0,0)circle(1.5);
+        \dynanometer[45]{xshift=-5mm,yshift=11mm,scale=0.7}{1}
+        \draw(-0.5,1.1)--(0.2,0.4);
+        \fill(0,0)circle(1pt)node[right]{$O$}(0.2,0.4)circle(1pt)(0.7,0.2)circle(1pt)(1.2,-0.3)circle(1pt)(-1.0,-0.1)circle(1pt);
+        \foreach  \x/\y in {0.7/0.2,1.2/-0.3,-1/-0.1}
+            {
+                \draw(\x,\y)--++(0,-1.8);
+                \draw(\x-0.03,\y-1.83)arc(180:-90:0.03)--++(0,-0.28)arc(90:360:0.03);
+                \fill[left color=gray, right color=gray,middle color=white](\x-0.15,\y-1.9)rectangle++(0.3,-0.2);
+            }
+        \draw(1.17,-2.53)arc(180:-90:0.03)--++(0,-0.28)arc(90:360:0.03);
+        \fill[left color=gray, right color=gray,middle color=white](1.05,-2.6)rectangle++(0.3,-0.2);
+        \draw[line cap=round,ultra thick](-3.7,3.2)--(3.7,3.2)(-3.6,3.1)--(-3.6,3.3)(3.6,3.1)--(3.6,3.3);
+        \fill[gray](-3.5,3.4)rectangle(3.5,3.0);
+        \fill[lightgray!60](0.1,3.45)rectangle(0.4,3.35)(0.1,2.95)rectangle(0.4,3.05)(-0.1,3.45)rectangle(-0.4,3.35)(-0.1,2.95)rectangle(-0.4,3.05);
+        \draw[line width=1mm, line cap=round,lightgray!40](-3.2,3.2)--(3.2,3.2);
+        \fill[ball color=white](-2.6,3.2)circle(0.05);
+        \draw(-2.6,3.2)--++(-45:0.57);
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+如图10.15所示，装好力矩盘，使它竖直地支在金属轴$O$上．在盘上任意选择四个位置，各插一根大头针，其中三根针上用细线分别悬挂不同个数的钩码，第四根针上用细线挂弹簧秤，弹簧秤的另一端挂在横杆的套环上．
+
+当力矩盘在这四个力作用下处于平衡状态的时候，量出各个力的力臂，测量时要注意：某个力的力臂是这个力的作用线到轴的垂直距离，而不是它的作用点到轴的距离．
+
+自己设计一个表格，把力和力臂的数值填入表里．在记录数据的时候，要弄清楚哪个作用力是使物体反时针转动，哪个作用力是使物体顺时针转动，以便确定力矩的正负．
+
+改变大头针的位置和各个力的大小，再重做几次．
+
+在你所做的几次实验里，各个力的力矩的代数和在实验误差范围内是否等于零？你的实验结论是什么？
+
+作用在盘的四个力，有一个是弹簧秤的弹簧的弹力，而不是钩码的重力，这对做实验有什么好处？
+\newpage
+\section{验证机械能守恒定律}
+在这个实验型，我们来验证机械能守恒定律．
+
+先来研究物体自由下落的情况，如果忽路空气的阻力，物体的机械能守恒，即重力势能的减少等于动能的增加，设物体的质量为$m$，下落高度为$h$时的速度为$v$，则有
+\[\frac{1}{2}mv^2-mgh\]
+
+现在按照图10.16所示的装置，用打点计时器来做实验．接通电源，松开纸带，让重物拖着纸带自由下落，纸带上打下一列小点．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=1.0]
+        \newcommand\hand[2][0]{
+            \begin{scope}[#2,rotate=#1]
+                \fill[pink!10!orange!10,draw=black,very thin]
+                ( 0.381,-0.532)..controls( 0.381,-0.532)and( 0.453,-0.637)..
+                ( 0.528,-0.619)..controls( 0.569,-0.608)and( 0.617,-0.592)..
+                ( 0.656,-0.559)..controls( 0.656,-0.559)and( 1.052,-0.743)..
+                ( 1.265,-0.543)..controls( 1.265,-0.543)and( 1.394,-0.497)..
+                ( 1.530,-0.522)..controls( 1.666,-0.548)and( 1.615, 0.055)..
+                ( 1.615, 0.055)..controls( 1.615, 0.055)and( 1.419, 0.062)..
+                ( 1.341, 0.100)..controls( 1.264, 0.138)and( 1.192, 0.195)..
+                ( 1.000, 0.235)..controls( 0.809, 0.275)and( 0.544, 0.376)..
+                ( 0.413, 0.370)..controls( 0.332, 0.366)and(-0.105, 0.228)..
+                (-0.166, 0.109)..controls(-0.185, 0.072)and(-0.211,-0.006)..
+                (-0.220,-0.076)..controls(-0.220,-0.076)and(-0.256,-0.256)..
+                (-0.097,-0.285)..controls(-0.052,-0.297)and(-0.029,-0.260)..
+                (-0.019,-0.245)..controls(-0.008,-0.229)and( 0.017,-0.315)..
+                ( 0.040,-0.343)..controls( 0.063,-0.371)and( 0.097,-0.440)..
+                ( 0.177,-0.440)..controls( 0.191,-0.441)and( 0.207,-0.442)..
+                ( 0.223,-0.441)..controls( 0.223,-0.441)and( 0.282,-0.549)..
+                ( 0.360,-0.536)..controls( 0.366,-0.535)and( 0.373,-0.534)..cycle;
+                \draw[very thin]
+                ( 0.752, 0.050)..controls( 0.752, 0.050)and( 0.479, 0.051)..
+                ( 0.359, 0.091)..controls( 0.261, 0.123)and( 0.193, 0.129)..
+                ( 0.071, 0.115)..controls(-0.052, 0.101)and(-0.178, 0.138)..
+                (-0.141,-0.040)..controls(-0.113,-0.173)and( 0.258,-0.180)..
+                ( 0.337,-0.164)..controls( 0.366,-0.157)and( 0.510,-0.263)..( 0.640,-0.218)
+                (-0.016,-0.235)..controls( 0.002,-0.204)and( 0.011,-0.164)..( 0.007,-0.146)
+                (0.223,-0.441)..controls(0.312,-0.438)and(0.422,-0.404)..
+                (0.468,-0.291)..controls(0.476,-0.269)and(0.360,-0.166)..
+                (0.240,-0.242)..controls(0.226,-0.233)and(0.205,-0.224)..(0.219,-0.183)
+                (0.381,-0.532)..controls(0.473,-0.506)and(0.676,-0.401)..
+                (0.615,-0.331)..controls(0.586,-0.298)and(0.537,-0.260)..(0.472,-0.280)
+                (0.398,-0.262)..controls(0.420,-0.271)and(0.441,-0.285)..
+                (0.438,-0.301)..controls(0.435,-0.316)and(0.364,-0.387)..
+                (0.342,-0.382)..controls(0.344,-0.383)and(0.295,-0.348)..
+                (0.319,-0.309)..controls(0.343,-0.270)and(0.377,-0.252)..(0.398,-0.262)
+                (0.566,-0.236)..controls(0.566,-0.236)and(0.675,-0.413)..(1.099,-0.380)
+                (0.625, 0.066)..controls(0.625, 0.066)and(0.702, 0.114)..(0.801, 0.100)
+                (0.481, 0.073)..controls(0.481, 0.073)and(0.486, 0.167)..(0.509, 0.222)
+                (0.353, 0.096)..controls(0.353, 0.096)and(0.332, 0.155)..(0.338, 0.182)
+                (0.234,-0.017)..controls(0.234,-0.017)and(0.226, 0.063)..(0.233, 0.079)
+                (0.195,-0.010)..controls(0.195,-0.010)and(0.184, 0.064)..(0.196, 0.091)
+                (-0.130,-0.034)..controls(-0.130,-0.034)and( 0.023,-0.059)..
+                ( 0.038,-0.028)..controls( 0.053, 0.003)and( 0.077, 0.079)..( 0.039, 0.109)
+                (0.228,-0.244)..controls(0.228,-0.244)and(0.166,-0.289)..(0.155,-0.319)
+                (0.318,-0.422)..controls(0.318,-0.422)and(0.266,-0.402)..(0.272,-0.370)
+                (0.492,-0.481)..controls(0.492,-0.481)and(0.459,-0.463)..(0.451,-0.445)
+                (0.541,-0.446)..controls(0.541,-0.446)and(0.489,-0.426)..
+                (0.508,-0.391)..controls(0.526,-0.356)and(0.565,-0.321)..(0.593,-0.328)
+                (0.656,-0.559)..controls(0.688,-0.532)and(0.715,-0.493)..
+                (0.728,-0.438)..controls(0.731,-0.403)and(0.666,-0.363)..(0.630,-0.386)
+                (0.687,-0.517)..controls(0.687,-0.517)and(0.613,-0.515)..
+                (0.631,-0.476)..controls(0.649,-0.438)and(0.666,-0.395)..(0.703,-0.399)
+                (0.636,-0.566)..controls(0.636,-0.566)and(0.602,-0.557)..(0.587,-0.522)
+                (1.329,-0.381)..controls(1.329,-0.381)and(1.481,-0.291)..(1.489,-0.356);
+            \end{scope}
+        }
+        \hand{xshift=-1mm,scale=0.6}
+        \fill[darkgray](-1.1,-2.3)--(-1.3,-2.3)arc(90:150:0.1)--(-1.5,-2.35)--(-1.5,-2.4)--(-1.1,-2.4);
+        \draw[fill=gray](0.4,-2.8)rectangle(-1.2,-2.0);
+        \draw[fill=lightgray](0.3,-2.7)rectangle(-1.0,-2.1);
+        \draw[double=black!2,line width=0.1mm,double distance=1mm](0,0.07)--++(0,0.5)(0,-0.11)--(0,-3);
+        \fill[blue!70!black](0.1,-2.4)circle(0.15);
+        \fill[ball color=white](0.1,-2.4)circle(0.5pt);
+        \fill[lightgray!50](-0.5,-2.45)--(0,-2.45)arc(-90:90:0.05)--(-0.5,-2.35);
+        \fill[ball color=gray](0,-2.4)circle(0.3pt);
+        \fill[darkgray](-0.35,-2.5)--(-0.2,-2.5)--(-0.2,-2.3)arc(0:180:0.075)--cycle;
+        \fill[gray](-0.275,-2.3)circle(1pt);
+        \draw[line cap =round]([shift=(-135:0.5pt)]-0.275,-2.3)--++(45:1pt);
+        \fill[darkgray](-0.4,-2.55)rectangle(-0.42,-2.25)(-0.78,-2.55)rectangle(-0.8,-2.25);
+        \fill[red!30!brown,rounded corners=0.5mm](-0.78,-2.5)rectangle(-0.42,-2.3);
+        \fill[darkgray](-0.95,-2.5)rectangle(-0.8,-2.3);
+        \fill[red](-1.1,-2.6)circle(0.8pt);
+        \fill[green](-1.1,-2.2)circle(0.8pt);
+        \fill[gray](-0.875,-2.4)circle(1pt);
+        \draw[line cap =round]([shift=(-135:0.5pt)]-0.875,-2.4)--++(45:1pt);
+        \fill[blue!70!black!60,even odd rule](0,-3)--++(-0.15,0)--++(0,-0.1)--++(0.1,0)--++(0,-0.1)--++(0.1,0)--++(0,0.1)--++(0.1,0)--++(0,0.1)--cycle(0,-3.15)circle(0.5pt);
+        \draw(0,-3.15)--(0,-3.5);
+        \fill[left color=gray,right color=gray,middle color=white](-0.2,-3.5)rectangle(0.2,-3.8);
+        \fill[left color=lightgray,right color=lightgray,middle color=white](-1.08,-2.32)--(-1.28,-2.32)arc(90:150:0.1)--(-1.5,-2.37)--(-1.5,-2.42)--(-1.367,-2.42)arc(210:270:0.1)--(-1.08,-2.47);
+        \fill[left color=lightgray,right color=lightgray,middle color=white](-1.65,-1.8)rectangle(-1.55,-4.5);
+        \fill[left color=lightgray,right color=lightgray,middle color=white,rounded corners=0.5mm](-1.5,-2.3)rectangle(-1.7,-2.5);
+        \draw[very thick,gray,line cap=round](-1.7,-2.4)--++(-0.1,0)(-1.8,-2.5)--++(0,0.2);
+        % \fill[darkgray](-0.8,-4.5)rectangle(-2.4,-4.7);
+        \fill[darkgray](-0.9,-4.5)--(-0.8,-4.7)--(-1.2,-4.7)--(-1.3,-4.6)--(-1.9,-4.6)--(-2,-4.7)--(-2.4,-4.7)--(-2.3,-4.5)--cycle;
+        \draw [semithick,fill=brown!70](-3,-4.7)--(-0.5,-4.7)--(-0.5,-4.9)--(-3,-4.9);
+        \draw [semithick,fill=brown](-3,-4.9)--(-0.7,-4.9)--(-0.7,-5.2)--(-3,-5.2);
+        \draw [semithick,fill=brown](-1.1,-6.5)--(-1.1,-5.2)--(-0.9,-5.2)--(-0.9,-6.5);
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+取下纸带，记下第一个点的位置$O$，在纸带上选取方便的5个连续点$A,B,C,D,E$．测出和邻两点间的距离
+$s_1,s_2,s_3,s_4$．再用实验七的方法分别算出打点计时器在打$B,C,D$各点时，重物的下落速度
+\[v_1=\frac{s_1+s_2}{2t},\quad v_2=\frac{s_2+s_3}{2t},\quad v_3=\frac{s_3+s_4}{2t},\qquad t=0.02{ s}\]
+把测量和算出的数据填入自己设计的表格里．算出重物增加的动能
+\[\frac{1}{2}mv_1^2, \quad \frac{1}{2}mv_2^2, \quad \frac{1}{2}mv_3^2\]
+利用当地的$g$值算出相应减少的重力势能$mgh_1,mgh_2,mgh_3$．这里的$h_1,h_2,h_3$分别是打点计时器在打$B$、$C$、$D$各点时，重物下落的高
+度，即$B$、$C$、$D$各点离第一个点$O$的距离．根据机械能守恒定律应当有：
+\[mgh_1=\frac{1}{2}mv^2_1,\quad mgh_2=\frac{1}{2}mv^2_2,\quad mgh_3=\frac{1}{2}mv^2_3\]
+你计算的结果如何？（这里并不需要知道动能和势能的具体数值，因此不需要测出重物的质量）
+
+下面来研究物体在重力作用下沿斜面运动的情况，物体沿斜面运动时，斜面对物体的支持力不做功，如果忽略空气阻力和摩擦力，物体的机械能守恒，即物体的重力势能的减少等于动能的增加．
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=latex,scale=1]
+        \draw[fill=brown5](0.5,-2)--(0.5,0)--(0.7,0)--(0.7,-2);
+        \draw[fill=brown6](0.5,-2)--(0.5,0)--(0.41,0)--(0.41,-1.88);
+        \draw[fill=brown5](-1.0,-0.2)--(-1.0,2)--(-0.8,2)--(-0.8,-0.2);
+        \draw[fill=brown6](-1.0,-0.2)--(-1.0,2)--(-1.09,2)--(-1.09,-0.08);
+        \draw[fill=brown6](9,0)--(0,0)--(0,-0.2)--(9,-0.2);
+        \draw[fill=brown8](9,0)--(0,0)--(-1.5,2)--(9,2);
+        \draw[fill=brown7](0,0)--(-1.5,2)--(-1.5,1.8)--(0,-0.2)--cycle;
+        \fill[gray](5.4,1.6)--(6.3,1.6)--(7.2,0.4)--(6.3,0.4)--cycle;
+        \fill[darkgray](7.2,0.4)--(6.3,0.4)--(6.3,0.3)--(7.2,0.3)--cycle;
+        \fill[darkgray!80](5.4,1.6)--(6.3,0.4)--(6.3,0.3)--(5.4,1.5)--cycle;
+        \fill[left color=gray,right color=gray,middle color=white](5.95,1.35)rectangle(6.05,3.5);
+        \begin{scope}[rotate=10]
+            \draw[fill=brown9,line join=round](8,0.6)--++(117:1.0)--++(-7,0)--++(-63:1.0)--cycle;
+            \draw[fill=brown8,line join=round](1,0.6)--++(117:1.0)--++(260:0.1)--++(-63:1.0)--cycle;
+            \draw[fill=brown7](1,0.6)--++(260:0.1)--++(7,0)--++(80:0.1)--cycle;
+            %% 打点计时器及纸带
+            \fill[gray!70](6.7,0.65)rectangle(7.5,0.7);
+            \fill[gray!50](6.7,0.65)--(6.1,1.45)--(6.1,1.5)--(6.7,0.7);
+            \fill[gray!30](6.7,0.7)--(6.1,1.5)--(6.9,1.5)--(7.5,0.7);
+            \draw(6.3,1.45)..controls(6.0,1.45)and(5.9,1.6)..(5.7,2.1);
+            \draw(6.39,1.33)..controls(6.0,1.45)and(5.7,1.5)..(5.6,2.1)node[above]{接电源};
+            \foreach \x/\y in {6.3/1.4,6.39/1.28}
+                {
+                    \fill[left color=darkgray,right color=darkgray,middle color=white](\x,\y)ellipse(0.02 and 0.01);
+                    \fill[left color=darkgray,right color=darkgray,middle color=white](\x-0.02,\y)rectangle++(0.04,0.05);
+                    \fill[left color=darkgray,right color=darkgray,middle color=white](\x,\y+0.05)ellipse(0.03 and 0.015);
+                    \fill[left color=darkgray,right color=darkgray,middle color=white](\x-0.03,\y+0.05)rectangle++(0.06,0.02);
+                    \fill[lightgray](\x,\y+0.07)ellipse(0.03 and 0.015);
+                }
+            \draw[double=lightgray!20,line width=0.1mm,double distance=2pt](6,0.9)--(9.3,0.9);
+            \fill[blue!80!black](7.09,0.88)ellipse(0.15 and 0.075);
+            \fill[lightgray,draw=black](6.45,1.4)rectangle(6.95,1.6);
+            \foreach \x in {0,1,...,12}
+                {
+                    \draw[brown6!80!red,rounded corners=0.4mm](6.6+0.015*\x,1.4-0.02*\x)--++(0,0.15)--++(0.2,0)--++(0,-0.15)--cycle;
+                }
+            \fill[lightgray,draw=black](6.66,1.12)rectangle(7.16,1.32);
+            \fill[gray,draw=black,ultra thin](6.84,1.12)--(6.9,1.04)--(7.16,1.04)--(7.1,1.12)--cycle;
+            \draw[lightgray](7.075,1)--(7.075,0.92);
+            \draw[ultra thin,fill=lightgray](6.86,1.22)--(7.025,1)..controls(7.043,0.976)and(7.143,0.976)..(7.125,1)--(6.96,1.22)--cycle;
+            \fill[darkgray!90,](7.1,1.12)--(7.16,1.04)arc(-90:90:0.025)--cycle;
+            \fill[gray!70,draw=black,ultra thin](6.84,1.17)--(6.9,1.09)--(7.16,1.09)arc(90:36.87:0.025)--++(-0.06,0.08)arc(36.87:90:0.025)--cycle;
+            %% 小车
+            \fill[darkgray](5.2,0.8)circle(0.1)(5.8,0.8)circle(0.1);
+            \fill[lightgray,draw=black,line join=round](4.7,1.2)rectangle(5.7,1.5);
+            \fill[gray,draw=black,line join=round](5.7,1.5)--(5.7,1.2)--(6,0.8)--(6,1.1)--cycle;
+            \fill[lightgray!40,draw=black,line join=round](4.7,1.2)--(5,0.8)--(6,0.8)--(5.7,1.2)--cycle;
+            \fill[lightgray,draw=black,line join=round](5,0.8)rectangle(6,1.1);
+            \fill[lightgray!60,draw=black,line join=round](4.7,1.2)--(5,0.8)--(5,1.1)--(4.7,1.5)--cycle;
+            % \draw(-1.5,1.3)--(4.85,1.3);
+            \draw[thin](7.5,0.9)--++(45:0.5)node[right]{纸带};
+        \end{scope}
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+我们仍然用打点计时器来做这个实验，实验装置如图10.17所示，让小车拖着纸带沿斜面滑下，在纸带上打下一列
+小点．象前面所讲的那样，记下纸带上第一个点的位置$O$，在纸带上选取5个连续点$A,B,C,D,E$．分别求出3个下滑速度
+\[v_1=\frac{s_1+s_2}{2t},\quad v_2=\frac{s_2+s_3}{2t},\quad v_3=\frac{s_3+s_4}{2t}\]
+测出斜面的长度$l$和高度$H$，计算出重物下落的相应高度
+\[h_B=\frac{H}{l}d_B, \quad h_C=\frac{H}{l}d_C, \quad h_D=\frac{H}{l}d_D \]
+这里的$d_B$、$d_C$、$d_D$分别是$B$、$C$、$D$各点离第一个点$O$的距离．把求得的数据填在自己设计的表格里，算出$\dfrac{1}{2}mv^2$和相应的$mgh$，看看它们是否相等．
+
+比较上面两种情况，将会发现后一情况能量损失较大，这是什么原因？实验误差的主要来源是什么？你能提出什么办法来减小误差？
+\newpage
+\section{研究弹性碰撞}
+这个实验要研究弹性碰撞中动量守恒和动能守恒．实验
+装置如图10.18所示，让一个小球从斜槽上滚下来，跟放在斜槽末端的另一个质量较小的球发生正碰，测出两球的质量以及它们碰撞前后的速度，就可以研究弹性碰撞中动量和动能是否守恒．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=1.0]
+        \draw[fill=brown5](-5,-1.5475)--(-1.8,-1.5475)--(-1.8,-1.5775)--(-5,-1.5775);
+        \draw[fill=brown7](-5,-1.7775)--(-1.8,-1.7775)--(-1.8,-1.5775)--(-5,-1.5775);
+        \draw[fill=brown7](-1.9,-0.75)rectangle(-1.5,-4.75)(-0.3,0.6)rectangle(0.1,-3.55);
+        \draw[fill=brown5](-1.5,-0.75)--(-1.5,-4.75)--(-1.4,-4.675)--(-1.4,-0.75)(0.1,0.6)--(0.1,-3.55)--(0.2,-3.475)--(0.2,0.675);
+        \draw[fill=brown8](-5,-0.75)--(-1,-0.75)--(-1,-0.55)--(-5,-0.55);
+        \draw[fill=brown6](-1,-0.75)--(-1,-0.55)--(1,0.95)--(1,0.75)--cycle;
+        \draw[fill=brown9](-5,-0.55)--(-1,-0.55)--(1,0.95)--(-5,0.95);
+        \draw[fill=brown4](-1.4,-1.3)--(-0.2,-0.4)--(0,-0.4)--(-1.4,-1.45);
+        \draw[fill=brown6](-1.4,-1.65)--(0,-0.6)--(0,-0.4)--(-1.4,-1.45);
+        \draw[line join=round](-1,-4.75)--(3,-4.75)--(4.7,-3.475)--(0.7,-3.475)--cycle;
+        \fill[blue!80!black](0.0833,-4.3125)--(3.0833,-4.3125)--(3.6167,-3.9125)--(0.6167,-3.91275)--cycle;
+        \draw[thin](1.7,-3.8)--++(60:0.8)node[right]{白纸};
+        \draw[thin](1.2,-4.2)--++(-45:0.5)node[right]{复写纸};
+        \begin{scope}[yshift=2mm,xshift=1mm]
+            \draw[fill=brown7](-4.5,-0.375)rectangle(-0.5,-0.275);
+            \draw[fill=brown5](-0.5,-0.375)--(-0.5,-0.275)--(0.5,0.475)--(0.5,0.375)--cycle;
+            \draw[fill=brown8](-4.5,-0.275)--(-0.5,-0.275)--(0.5,0.475)--(-3.5,0.475)--cycle;
+            \fill[gray](-3.57,-0.0275)--(-3.47,-0.0275)--(-3.13,0.2275)--(-3.23,0.2275);
+            \fill[darkgray](-3.51,0.0175)rectangle(-3.41,0.9)(-3.29,0.1825)rectangle(-3.19,0.9);
+            \fill[lightgray](-0.16,-0.02)[rounded corners=3mm]--(-2.16,-0.02)[sharp corners]--(-3.66,0.98)--(-3.34,1.22)[rounded corners=3mm]--(-1.84,0.22)[sharp corners]--(0.16,0.22);
+            \draw[rounded corners=3mm](0.032,0.124)--++(-2,0)--++(-1.5,1.0);
+            \draw[rounded corners=3mm](-0.032,0.076)--++(-2,0)--++(-1.5,1.0);
+            \draw[thick](0,0)--(0.1,0)--(0.1,0.2);
+            \fill[ball color=lightgray](0.1,0.2)circle(0.1);
+            \fill[ball color=lightgray](-3.4,1.133)circle(0.1);
+            \draw(-3.4,1.133)--++(20:0.5)node[right]{入射小球};
+            \draw(0.1,0.2)--++(10:1.5)node[right]{被碰小球};
+        \end{scope}
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+小球的质量可以用天平来测量，怎样测定两球碰撞前后的速度呢？实验时将斜槽固定在桌边，并注意使斜槽的末端点的切线是水平的，被碰小球支在小柱上，两球碰撞时一样高，碰撞前后的速度都是水平的．因此，两球碰撞前后的速度，可以利用我们学过的平抛运动的知识求出来．
+
+做平抛运动的小球下落到地面，它们下落的高度相同，飞行时间也相同，这样，小球的水平速度与其飞出的水平距离成正比，如果用小球的飞行时间作时间单位，小球飞出的水平距离在数值上就等于它的水平速度．
+
+为了记录小球飞出的水平距离，在地上铺一张白纸，白纸
+上铺放复写纸，小球落在复写纸上，就在白纸上留下小球落地位置的痕迹，利用这个痕迹我们不难测出小球飞出的水平距离．
+
+上面讲了实验装置和实验原理，现在我们做实验．
+
+先不放上被碰小球，让入射小球从斜槽上某一高度滚下，重复10次，用尽可能小的圆把所有的小球落点图在里面，圆心$P$就是小球落点的平均位置（图10.19）．
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=stealth,scale=1.0]
+        \draw[densely dashed](0,0)parabola(3,-4)node[below]{$P$}(0,0)parabola(2,-4)node[below]{$M$}(0,0)parabola(5.5,-4)node[below]{$N$};
+        \draw[thick](-1,-4)--(7,-4);
+        \fill[ball color=gray](0,0)circle(0.15);
+        \fill[ball color=lightgray](-0.3,0)circle(0.15);
+        \fill[darkgray](0.02,-0.15)rectangle(-0.02,-0.45);
+        \fill[darkgray](-0.38,-0.15)rectangle(-0.42,-0.45);
+        \fill[brown](-0.26,-0.35)rectangle(-1.5,-0.2);
+        \fill[gray](-0.2,-0.15)--(-0.5,-0.15)--(-0.5,-0.2)--(-0.25,-0.2)--(-0.25,-0.35)--(0.05,-0.35)--(0.05,-0.3)--(-0.2,-0.3)--cycle
+        ;
+        \fill[darkgray](0.08,-0.15)rectangle(-0.08,-0.25);
+        \fill[lightgray](0.04,-0.35)rectangle(-0.04,-0.4);
+        \fill[lightgray](-0.36,-0.35)rectangle(-0.44,-0.4);
+        \draw[thin,densely dashed,postaction={decorate},decoration={markings,mark={at position 0.75 with {\arrow{>}}}}](-0.3,-0.35)--(-0.3,-4)node[above left]{$O$};
+        \draw[thin,densely dashed](0,-0.45)--(0,-4)node[above right]{$O'$};
+        \fill[brown!50](-0.5,-0.15)..controls(-0.8,-0.15)and(-1.2,-0.05)..(-1.5,0.15)--(-1.5,-0.2)--(-0.5,-0.2)--cycle;
+        \draw[thin,->|](-0.5,-4.3)--(-0.3,-4.3);
+        \draw[thin,->|](0.3,-4.3)--(0,-4.3);
+        \draw[thin](-0.3,-2)--++(165:0.6)node[above]{重锤线};
+        \node at(-0.15,-4.2){$2r$};
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+把被碰小球支在小柱上，让入射小球从同一高度滚下，使它们发生正碰．重复10次，用同样的办法标出入射小球的落点的平均位置$M$、被碰小球的落点的平均位置$N$．
+
+现在来测量小球飞出的水平距离．
+
+我们看到实验装置中有个重垂线，它的悬点正好在斜槽的末端点．在白纸上记下重垂线所指的位置$O$，它表示斜槽的末端点在纸上的垂直投影．不发生碰撞时入射小球飞出的水平距离应当从斜槽末端点在纸上的垂直投影算起，因此线段$OP$是不发生碰撞时入射小球飞出的水平距离，它在数值上等于入射小球碰擅前的速度$v_1$．
+
+支持被碰小球的小柱和斜槽末端点的距离为$2r$，其中$r$是两个小球的半径，在直线$ON$上取线段$OO'=2r$，则$O'$点就是碰撞时被碰小球的球心在纸上的垂直投影，因此线段$O'N$ 是被被小球碰撞后飞出的水平距离，它在数值上等于被碰小球碰撞后的速度$v'_2$．
+
+从图10.19可以看出，碰撞时入射小球的球心在斜槽末端点的上方，因此线段$OM$是入射小球碰撞后飞出的水平距离，它在数值上等于入射小球碰撞后的速度．
+
+测量完毕，我们可以利用测量结果进行研究了．
+
+先研究动量守恒，根据动量守恒定律应当有
+\[m_1v_1=m_1v'_1+m_2v'_2 \]
+因为$v_1, v'_1,v'_2$在数值上分别等于线段$OP$, $OM$, $O'N$的长度，所以
+\[m_1(OP)=m_1(OM)+m_2(O'N)\]
+把测得的数据代入上式，看看等式是否成立．
+
+再来研究动能守恒．在弹性碰撞中动能守恒，所以应当有
+\[\begin{split}
+        \frac{1}{2}m_1v_1^2 & =\frac{1}{2}m_1{v'_1}^2+\frac{1}{2}m_2{v'_2}^2 \\
+        m_1(OP)^2           & =m_1(OM)^2+m_2(O'N)^2
+    \end{split}\]
+把测得的数值代入上式，看看等式是否成立．
+
+根据实验结果，总结弹性碰撞的规律．
+
+做这个实验的时候，入射小球的质量$m_1$必须大于被碰小球的质量$m_2$．你能利用所学知识来说明其中的道理吗？
+
+在研究弹性碰撞中动能守恒时，也可以不用等式\[m_1(OP)^2=m_1(OM)^2+m_2(O'N)^2\]而把测得的数据代入等式$O'N-OM=OP$中，看看它是否成立，就知道动能是否守恒．研究一下这个问题，说明道理，并把你测得的数据代入后一等式，看看它是否成立．
+
+\newpage
+\section{用冲击摆测弹丸的速度}
+冲击摆是一个用细线悬挂着的沙箱，弹丸击中沙箱时陷入箱内，使沙箱摆至某一高度（图10.20），利用这种装置可以测出弹丸的速度．
+\begin{figure}[H]\centering
+    \begin{tikzpicture}[>=stealth,scale=1.5]
+        \fill [pattern=north east lines](-.5,0) rectangle (.5,0.25);
+        \draw [thick](-.5,0)--(.5,0);
+        \draw [rotate=30, dashed] (-.35, -3.5) rectangle (.35, -3);
+        \draw [semithick](-.35, -3.5) rectangle (.35, -3);
+        \draw (0,0)--(-90:3);\draw[dashed] (0,0)--(-60:3);
+        \draw[fill=gray] (-2+1, 5.3-8.5) --(-1.7+1, 5.3-8.5) to [bend left=15] (-1.45+1, 5.2-8.5) to [bend left=15] (-1.7+1,5.1-8.5)--(-2+1,5.1-8.5)--(-2+1,5.3-8.5);
+        \draw[rotate=30, fill=gray] (-2+1.7, 5.3-8.5) --(-1.7+1.7, 5.3-8.5) to [bend left=15] (-1.45+1.7, 5.2-8.5) to [bend left=15] (-1.7+1.7,5.1-8.5)--(-2+1.7,5.1-8.5)--(-2+1.7,5.3-8.5);
+        \draw [dashed](0,-3.25)--(3,-3.25);
+        \draw [dashed](1.7,-2.8)--(3,-2.8);
+        \draw[<->](2.3,-3.25)--node[right]{$h$}(2.3,-2.8);
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+先来讨论这种测弹丸速度
+的方法．
+
+设弹丸的质量为$m$，速度为$v$，沙箱的质量为$M$．弹丸未射入沙箱前，沙箱静止在平衡位置，弹丸和沙箱的总动量为$mv$；弹丸击中沙箱后，弹丸和沙箱以相同的速度运动，设这个速度为$v'$，它们的总动量为$(M+m)v'$．根据动量守恒定律
+\begin{equation}
+    mv=(M+m)v'
+\end{equation}
+
+弹丸和沙箱一起运动后，线的拉力不做功，只有重力做功，机械能守恒．因此，它们在开始运动时的动能，在到达最高位置时完全转化成重力势能．设摆动的最大高度为$h$，根据机械能守恒定律
+\begin{equation}
+    \frac{1}{2}(M+m){v'}^2 =(M+m)gh
+\end{equation}
+即
+\[v'=\sqrt{2gh}\]
+代入(10.4)式后可得
+\begin{equation}
+    v=\frac{M+m}{m}\sqrt{2gh}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=latex,z={(15:10mm)},x={(130:5mm)}]
+        \begin{scope}[canvas is zx plane at y=0]
+            \draw[fill=brown9](-5,0)rectangle(5,1.8);
+            \draw[fill=gray,very thin](4.9,1.2)rectangle(5,0.8);
+            \draw[fill=gray,very thin](1.4,1.2)rectangle(1.7,1.0);
+            \draw[fill=gray,very thin](1.85,1.2)rectangle(2.15,1.0);
+        \end{scope}
+        \begin{scope}[canvas is yz plane at x=1.0]
+            \draw[fill=lightgray,very thin](0,4.9)rectangle(1.8,5);
+            \draw[fill=lightgray,very thin](0,1.5)rectangle(3.5,1.6);
+            \draw[fill=lightgray,very thin](0,1.95)rectangle(3.5,2.05);
+        \end{scope}
+        \begin{scope}[canvas is zx plane at y=3.6]
+            \draw[fill=lightgray,very thin](1.5,1.2)rectangle(1.6,0.4);
+            \draw[fill=lightgray,very thin](1.95,1.2)rectangle(2.05,0.4);
+        \end{scope}
+        \draw[very thin,red](0.7,3.5,2)--(0.7,3.2,2);
+        \draw[brown](1.0,3.5,1.55)--(0.875,2.1,1.575);
+        \draw[brown](1.0,3.5,2)--(0.875,2.1,1.975);
+        \foreach \x in {1.5,1.95}
+            {
+                \begin{scope}[canvas is xy plane at z=\x]
+                    \draw[fill=darkgray,very thin](1.2,0)--(1.2,3.6)--(0.4,3.6)--(0.4,3.5)--(1.0,3.5)--(1.0,0);
+                \end{scope}
+            }
+        \begin{scope}[canvas is yz plane at x=0]
+            \draw[fill=brown8](0,-5)rectangle(-0.1,5);
+        \end{scope}
+        \begin{scope}[canvas is xy plane at z=-5]
+            \draw[fill=brown7](0,0)rectangle(1.8,-0.1);
+        \end{scope}
+
+        %%% 画板立面
+        \begin{scope}[canvas is yz plane at x=1.0]
+            \draw[fill=brown9](0.3,1.5)rectangle(1.8,5);
+            \draw[fill=white](0.4,1.6)rectangle(1.7,4.9);
+            \foreach \x in {185,180,...,145}
+                {
+                    \draw[ultra thin]([shift=(\x:3.0)]3.5,2.0)--++(\x:-0.2);
+                    \draw[ultra thin]([shift=(\x-2.5:3.0)]3.5,2.0)--++(\x-2.5:-0.17);
+                    \foreach \y in {1,2,3,4,6,7,8,9}
+                        {
+                            \draw[ultra thin]([shift=(\x-0.5*\y:3.0)]3.5,2.0)--++(\x-0.5*\y:-0.12);
+                        }
+                }
+            \draw[ultra thin]([shift=(140:3.0)]3.5,2.0)--++(140:-0.2);
+            % \draw(3.5,2.0)--(0.4,2.0);
+        \end{scope}
+        \draw[very thin,red](0.7,3.2,2)--(0.7,0.6,2);
+        \begin{scope}[canvas is yz plane at x=0.4]
+            \draw[fill=lightgray,very thin](3.5,1.5)rectangle(3.6,2.05);
+        \end{scope}
+        \begin{scope}[canvas is yz plane at x=0.6]
+            \draw[fill=lightgray,very thin](0.5,1.55)rectangle(0.7,2.0);
+            \fill(0.6,1.775)circle(0.07);
+        \end{scope}
+        \begin{scope}[canvas is xy plane at z=1.55]
+            \draw[fill=darkgray,very thin](0.8,0.5)rectangle(0.6,0.7);
+            \fill(0.7,0.6)circle(0.07);
+        \end{scope}
+        \begin{scope}[canvas is zx plane at y=0.7]
+            \draw[fill=lightgray,very thin](1.55,0.8)rectangle(2,0.6);
+            \draw(1.6,0.7)--++(120:1.0)node[left]{摆锤};
+        \end{scope}
+        \draw[brown](0.875,2.1,1.575)--(0.75,0.7,1.6)(0.4,3.5,1.55)--(0.65,0.7,1.6);
+        \draw[brown](0.875,2.1,1.975)--(0.75,0.7,1.95)(0.4,3.5,2)--(0.65,0.7,1.95);
+        \draw(0.7,2.7,2)--++(150:1.5)node[right]{指针};
+        \begin{scope}[canvas is yz plane at x=0.8]
+            \fill[darkgray](0,-4)--++(0.1,0)arc(180:90:0.3)arc(90:0:0.2)--++(0.1,0)--++(0,1)--++(-0.1,0)arc(0:-90:0.2)arc(-90:-180:0.3)--++(-0.1,0)--cycle;
+        \end{scope}
+        \draw[ultra thick,lightgray,line cap=round](0.7,0.7,-4)--(1.0,0.7,-4);
+        \foreach \x in {80,70,...,10}
+            {
+                \draw[line width={2.5*sin(\x)},brown!\x](0.7,0.7,-4.2)--(0.7,0.7,-2);
+            }
+        \begin{scope}[canvas is yz plane at x=0.6]
+            \fill[top color=gray,bottom color=gray,middle color=white](0,-4)--++(0.1,0)arc(180:90:0.3)arc(90:0:0.2)--++(0.1,0)--++(0,1)--++(-0.1,0)arc(0:-90:0.2)arc(-90:-180:0.3)--++(-0.1,0)--cycle;
+        \end{scope}
+        \draw(0.7,0.7,-2.5)--++(0,0.5,0)node[above]{弹簧枪};
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+现在我们用图10.21所示的装置来做实验．
+
+这个装置主要由冲击摆和弹簧枪组成，冲击摆的摆锤用四根线绳悬挂着，线绳的长度可以调节．摆锤是中空的，弹丸射入摆锤后，被卡在里面，不能反跳出来．弹簧枪用来发射弹丸．它有三档，能够发射三种不同的弹丸速度．摆锤摆动时，推动着指针偏转．这个指针可以停留在任一位置上，实验中根据指针停留的位置就可以从刻度盘上读出摆锤摆动的最大角度．设摆锤摆动的最大角度为$\theta$、摆长为$l$，那么摆锤摆动的最大高度
+\begin{equation}
+    h=l(1-\cos\theta)
+\end{equation}
+这个公式，请同学们自己证明．
+
+做实验时，要将实验装置水平放在桌子上．调节四根线绳的长度，使弹丸恰好能射入摆锤内，并使摆锤摆动平稳，让冲击摆在平衡位置静止．扳动弹簧枪的扳机，把弹丸射入摆锤内．摆锤和弹丸一起摆动，并推动着指针偏转，摆锤在推动指针偏转时，要克服摩擦力做功．因此实验时，应使指针先停留在适当的高度，以减少能量的损耗．记下摆锤摆动的最大角度$\theta$，测出悬线的长度，它就是摆长$l$，即可用公式(10.7)算出最大高度 $h$，用天平分别测出弹丸的质量$m$和摆锤的质量$M$，最后用公式(10.6)求出弹丸的速度．
+
+用同样的方法，求出弹簧枪另外两档发射的弹丸速度．
+\newpage
+\section{用单摆测定重力加速度}
+我们知道，单摆在偏角很小时，它的周期公式是
+\[T=2\pi\sqrt{\frac{l}{g}}  \]
+如果测出单摆的摆长和周期，利用单摆周期公式使可以求出当地的重力加速度$g$的数值．
+
+选取一段1米左右的细线，让线的一端穿过小球的小孔，然后打一个比小孔大一些的线结，这样就做成一个单摆．把线的上端用铁夹固定在铁架台上，把铁架台放在实验桌边，使铁夹伸到桌面以外，让摆球自由下垂．
+
+用米尺量出悬线长$l'$，准确到毫米，为了测量方便，可以用游标卡尺测量摆球的直径，然后算出摆球的半径$r$，也准确到毫米．单摆的摆长是悬点到球心的距离，所以$l+r$就是摆长．
+
+把单摆从平衡位置拉开一个很小的角度（不超过5$^\circ$），然后放开小球让它摆动，用秒表测出摆动30—50次的时间，计算出平均摆动一次的时间，这个时间就是单摆的振动周期．
+
+根据单摆的周期公式，计算出重力加速度．
+
+变更摆长，重做几次实验，计算出每次实验的重力加速度．最后，求出几次实验得到的重力加速度的平均值，即是本地区的重力加速度．
+
+设计一个表格，把测得的数据和计算结果填入表中．
+
+利用实验中测得的数据还可以研究周期跟摆长的关系．从单摆的周期公式知道，周期跟摆长的平方根成正比．算出不同摆长下周期跟相应的摆长的平方根之比，看看这些比值是否相等．
+
+从单摆的周期公式知道，周期跟偏角的大小、摆球的质量没有关系，用实验验证一下这个结论．
+
+
